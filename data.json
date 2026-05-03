@@ -1,0 +1,226 @@
+{
+  "project": "Jim McConnell's Annual Cost Per Gig Fun Post",
+  "baseline": {
+    "year": 1982,
+    "product": "Elephant Brand DS/DD 5.25\" Diskettes",
+    "pack_size": 10,
+    "price": 19.95,
+    "capacity_per_disk_kb": 360,
+    "total_capacity_gb": 0.003516,
+    "cost_per_gb": 5541.67,
+    "disks_per_gb": 2777,
+    "stack_height_feet": 30,
+    "location": "The Software Store, Fowler Ave, Tampa FL",
+    "notes": "Jim's first technology job, October 1982"
+  },
+  "physical_scale": {
+    "cassette_1gb": {
+      "units": 5682,
+      "stack_height_feet": 237,
+      "media": "C-60 Cassette"
+    },
+    "floppy_1gb": {
+      "units": 2777,
+      "stack_height_feet": 30,
+      "media": "DS/DD 5.25\" Floppy"
+    },
+    "microsd_1tb_2025": {
+      "units": 1,
+      "size": "fingernail"
+    }
+  },
+  "annual_posts": [
+    {
+      "year": 2009,
+      "source": "LinkedIn/Facebook personal post",
+      "note": "27th anniversary post",
+      "data": [
+        {"media": "DVD", "retailer": "Fry's", "cost_per_gb": 0.0255}
+      ]
+    },
+    {
+      "year": 2012,
+      "source": "LinkedIn/Facebook personal post",
+      "note": "DVD 100-pack $12.95 at Fry's. 1982 inflation-adjusted = $12,535.43 in 2012 dollars.",
+      "data": [
+        {"media": "DVD 100-pack", "retailer": "Fry's", "cost_per_gb": 0.027}
+      ]
+    },
+    {
+      "year": 2015,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "Blu-Ray", "cost_per_gb": 0.03},
+        {"media": "USB", "cost_per_gb": 0.76}
+      ]
+    },
+    {
+      "year": 2016,
+      "source": "LinkedIn/Facebook personal post",
+      "note": "DS/DD price likely $2,510 not $2.51 — sweet tea incident",
+      "data": [
+        {"media": "Blu-Ray", "cost_per_gb": 0.018},
+        {"media": "Micro SD", "cost_per_gb": 0.390},
+        {"media": "USB", "cost_per_gb": 0.210},
+        {"media": "DS/DD Floppy", "cost_per_gb": 2510, "note": "Likely typo — missing comma"}
+      ]
+    },
+    {
+      "year": 2017,
+      "source": "LinkedIn/Facebook personal post",
+      "note": "DS/DD 'back up to about the same price per gig as in 1982'",
+      "data": [
+        {"media": "Blu-Ray", "cost_per_gb": 0.017},
+        {"media": "Micro SD", "cost_per_gb": 0.340},
+        {"media": "USB", "cost_per_gb": 0.210},
+        {"media": "DS/DD Floppy", "cost_per_gb": 5950}
+      ]
+    },
+    {
+      "year": 2018,
+      "source": "LinkedIn/Facebook personal post",
+      "note": "1TB USB at $430 = $6.8M worth of DS/DD at 1982 prices",
+      "data": [
+        {"media": "Blu-Ray", "cost_per_gb": 0.03},
+        {"media": "Micro SD", "cost_per_gb": 0.08},
+        {"media": "Cheap USB", "cost_per_gb": 0.20},
+        {"media": "DS/DD Floppy", "cost_per_gb": 6805}
+      ]
+    },
+    {
+      "year": 2019,
+      "source": "LinkedIn/Facebook personal post",
+      "note": "1TB microSD $299.99. '1982: 36ft tall stack of boxes. 2019: size of your thumbnail.'",
+      "data": [
+        {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.300}
+      ]
+    },
+    {
+      "year": 2020,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "8TB Portable HDD", "cost_per_gb": 0.016},
+        {"media": "2TB Thumb Drive", "cost_per_gb": 0.020},
+        {"media": "512GB microSD", "cost_per_gb": 0.150},
+        {"media": "1TB microSD", "cost_per_gb": 0.234},
+        {"media": "DS/DD Floppy", "cost_per_gb": 2765.89}
+      ]
+    },
+    {
+      "year": 2021,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "12TB Portable HDD", "cost_per_gb": 0.023},
+        {"media": "2TB Thumb Drive (Generic)", "cost_per_gb": 0.020},
+        {"media": "512GB microSD", "cost_per_gb": 0.034},
+        {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.155},
+        {"media": "DS/DD Floppy", "cost_per_gb": 4430}
+      ]
+    },
+    {
+      "year": 2022,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "18TB Portable HDD", "cost_per_gb": 0.019},
+        {"media": "2TB Thumb Drive (Generic)", "cost_per_gb": 0.010},
+        {"media": "512GB microSD", "cost_per_gb": 0.101},
+        {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.126},
+        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.450},
+        {"media": "DS/DD Floppy", "cost_per_gb": 8816}
+      ]
+    },
+    {
+      "year": 2023,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "22TB Portable HDD", "cost_per_gb": 0.019},
+        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.023},
+        {"media": "8TB Portable SSD", "cost_per_gb": 0.062},
+        {"media": "512GB microSD", "cost_per_gb": 0.064},
+        {"media": "1.5TB microSD", "cost_per_gb": 0.070},
+        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.125},
+        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.450},
+        {"media": "DS/DD Floppy", "cost_per_gb": 8331}
+      ]
+    },
+    {
+      "year": 2024,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "24TB Portable HDD", "cost_per_gb": 0.018, "yoy_pct": -4},
+        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.011, "yoy_pct": -52},
+        {"media": "8TB Portable SSD", "cost_per_gb": 0.056, "yoy_pct": -9},
+        {"media": "1TB microSD", "cost_per_gb": 0.057, "yoy_pct": -19},
+        {"media": "512GB microSD", "cost_per_gb": 0.061, "yoy_pct": -4},
+        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.089, "yoy_pct": -29},
+        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.375, "yoy_pct": -17},
+        {"media": "DS/DD Floppy", "cost_per_gb": 4163.889, "yoy_pct": -50}
+      ]
+    },
+    {
+      "year": 2025,
+      "source": "LinkedIn/Facebook personal post",
+      "data": [
+        {"media": "30TB Portable HDD", "cost_per_gb": 0.0253, "yoy_pct": 38, "note": "Upgrade from 24TB"},
+        {"media": "512GB microSD", "cost_per_gb": 0.0586, "yoy_pct": -4},
+        {"media": "32TB Bare HDD", "cost_per_gb": 0.0600, "note": "New this year"},
+        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.0620, "yoy_pct": 461},
+        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.0760, "yoy_pct": -15},
+        {"media": "2TB microSD", "cost_per_gb": 0.0850, "yoy_pct": 49, "note": "Upgrade from 1.5TB"},
+        {"media": "122TB SSD", "cost_per_gb": 0.1230, "note": "New this year"},
+        {"media": "30TB Portable SSD", "cost_per_gb": 0.1500, "yoy_pct": 167, "note": "Upgrade from 8TB"},
+        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.2250, "yoy_pct": -40},
+        {"media": "Cinemag Ve 8TB", "cost_per_gb": 6.1628, "note": "New this year — professional cinema format"},
+        {"media": "DS/DD Floppy", "cost_per_gb": 6931, "yoy_pct": 66}
+      ]
+    }
+  ],
+  "historical_catalog_data": [
+    {"year": 1977, "media": "C-60 Cassette (Realistic Low-Noise)", "cost_per_gb": 9034, "source": "Radio Shack 1977 Catalog Page 83", "price_each": 1.59, "capacity_gb": 0.000176},
+    {"year": 1981, "media": "Flip/Floppy SS/SD 5.25\"", "cost_per_gb": 11364, "source": "Omni Flip/Floppy ad", "note": "5-pack $21, 10-pack $40 — equivalent to 10/20 single-sided disks"},
+    {"year": 1984, "media": "SS/DD 5.25\" Radio Shack", "cost_per_gb": 22699, "source": "Radio Shack 1984 Catalog Page 92", "price_each": 4.95},
+    {"year": 1984, "media": "C-60 Cassette (Realistic Low-Noise)", "cost_per_gb": 11307, "source": "Radio Shack 1984 Catalog Page 92", "price_each": 1.99},
+    {"year": 1986, "media": "DS/DD 5.25\" BASF (box of 10)", "cost_per_gb": 4815, "source": "Computer Shopper Feb 1986 Page 19, Bulldog Computer Products", "price_per_10": 16.95},
+    {"year": 1988, "media": "DS/DD 5.25\" (box of 10)", "cost_per_gb": 3679, "source": "Radio Shack 1988 Catalog", "price_per_10": 12.95},
+    {"year": 1989, "media": "DS/DD 5.25\" Dysan (box of 10)", "cost_per_gb": 1903, "source": "Computer Shopper May 1989 Page 426, McGiga International", "price_per_10": 6.70},
+    {"year": 1990, "media": "DS/DD 5.25\" BASF (box of 10)", "cost_per_gb": 1989, "source": "Computer Shopper Nov 1990, ComputerGear", "price_per_10": 7.00},
+    {"year": 1992, "media": "3.5\" HD Tandy (box of 10)", "cost_per_gb": 2219, "source": "Radio Shack 1992 Catalog", "price_per_10": 31.95},
+    {"year": 1994, "media": "3.5\" HD (box of 10)", "cost_per_gb": 971, "source": "Radio Shack 1994 Catalog", "price_per_10": 13.99},
+    {"year": 1996, "media": "3.5\" DS/HD Flex Disk (box of 10)", "cost_per_gb": 333, "source": "Computer Shopper Jul 1996, Flex Pro-Dupe ad", "price_per_10": 4.80},
+    {"year": 1996, "media": "CD-R TDK (10-pack, 650MB each)", "cost_per_gb": 12.15, "source": "Computer Shopper Jul 1996, TDK ad", "price_per_10": 79.00},
+    {"year": 1997, "media": "3.5\" HD (box of 10)", "cost_per_gb": 553, "source": "Radio Shack 1997 Catalog", "price_per_10": 10.99},
+    {"year": 1997, "media": "Zip 100MB", "cost_per_gb": 130, "source": "Radio Shack 1997 Catalog", "price_each": 13},
+    {"year": 1998, "media": "CD-R 100-pack budget (650MB each)", "cost_per_gb": 2.14, "source": "Computer Shopper May 1998", "price_per_100": 139},
+    {"year": 1998, "media": "CD-R 100-pack standard (650MB each)", "cost_per_gb": 2.69, "source": "Computer Shopper May 1998", "price_per_100": 175},
+    {"year": 1998, "media": "SyQuest 1GB SparQ cartridge", "cost_per_gb": 28, "source": "Computer Shopper May 1998", "price_each": 28},
+    {"year": 1998, "media": "Iomega 1GB Jaz cartridge", "cost_per_gb": 79, "source": "Computer Shopper May 1998", "price_each": 79},
+    {"year": 2000, "media": "CD-R Sony 5-pack (650MB each)", "cost_per_gb": 4.61, "source": "Radio Shack 2000 Catalog", "price_per_5": 14.99},
+    {"year": 2000, "media": "Zip 100MB Fuji", "cost_per_gb": 149, "source": "Radio Shack 2000 Catalog", "price_each": 14.99},
+    {"year": 2001, "media": "CD-R 100-pack budget (650MB each)", "cost_per_gb": 1.02, "source": "Computer Shopper Jul 2001", "price_per_100": 66},
+    {"year": 2001, "media": "USB DiskOnKey 128MB (M-Systems)", "cost_per_gb": 1172, "source": "Maximum PC Dec 2001", "price": 150},
+    {"year": 2003, "media": "USB Thumb Drive 128MB", "cost_per_gb": 281, "source": "Maximum PC Jun 2003", "price": 36},
+    {"year": 2006, "media": "DVD+R Memorex 25-pack (4.7GB each)", "cost_per_gb": 0.170, "source": "Radio Shack 2006 Sales Guide", "price_per_25": 19.99},
+    {"year": 2006, "media": "USB Flash Drive 512MB", "cost_per_gb": 78.07, "source": "Radio Shack 2006 Sales Guide", "price": 39.97},
+    {"year": 2009, "media": "Verbatim DVD+R 100-pack", "cost_per_gb": 0.021, "source": "Fry's Black Friday Ad Nov 2009", "price_per_100": 9.99},
+    {"year": 2009, "media": "Kingston 2GB USB Flash", "cost_per_gb": 13.50, "source": "Fry's Black Friday Ad Nov 2009", "price": 26.99},
+    {"year": 2009, "media": "500GB Serial ATA HDD", "cost_per_gb": 0.068, "source": "Fry's Black Friday Ad Nov 2009", "price": 34.00}
+  ],
+  "todo_2026": [
+    "Find 2010, 2011, 2013, 2014 personal posts",
+    "Add cassette row to annual table (C-60 at ~$9,034/GB circa 1977)",
+    "Get corrected cassette tower image from ChatGPT (237ft not 74ft)",
+    "Build callout bubbles for chart showing format introductions",
+    "Build scale infographic: cassette tower vs floppy stack vs fingernail",
+    "Draft 2026 LinkedIn/Facebook post narrative",
+    "Research exact blank cassette price for 1977 Radio Shack to finalize cassette $/GB"
+  ],
+  "cassette_technical": {
+    "transfer_rate_bytes_per_sec": 50,
+    "usable_capacity_per_60min_tape_kb": 176,
+    "tapes_needed_for_1gb": 5682,
+    "stack_height_feet": 237,
+    "source_tape_price_1977": 1.59,
+    "source": "Radio Shack 1977 Catalog Page 83, Realistic Low-Noise C-60",
+    "cost_per_gb": 9034
+  }
+}
