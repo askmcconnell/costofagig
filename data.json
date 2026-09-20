@@ -31,14 +31,6 @@
   },
   "annual_posts": [
     {
-      "year": 2009,
-      "source": "LinkedIn/Facebook personal post",
-      "note": "27th anniversary post",
-      "data": [
-        {"media": "DVD", "retailer": "Fry's", "cost_per_gb": 0.0255}
-      ]
-    },
-    {
       "year": 2012,
       "source": "LinkedIn/Facebook personal post",
       "note": "DVD 100-pack $12.95 at Fry's. 1982 inflation-adjusted = $12,535.43 in 2012 dollars.",
@@ -173,6 +165,25 @@
         {"media": "Cinemag Ve 8TB", "cost_per_gb": 6.1628, "note": "New this year — professional cinema format"},
         {"media": "DS/DD Floppy", "cost_per_gb": 6931, "yoy_pct": 66}
       ]
+    },
+    {
+      "year": 2026,
+      "source": "LinkedIn/Facebook personal post (in progress)",
+      "data": [
+        {"media": "2TB microSD (Lexar)", "cost_per_gb": 0.1766, "yoy_pct": 108, "note": "Price per unit $353.22 — notable jump vs. 2025's $0.085/GB"},
+        {"media": "DS/DD Floppy", "cost_per_gb": 6928.61, "yoy_pct": -0.03, "note": "Amazon, 10-pack $24.95 — essentially flat vs. 2025's $6,931/GB"},
+        {"media": "32TB Bare HDD (Seagate Skyhawk AI)", "cost_per_gb": 0.0362, "yoy_pct": -40, "note": "Amazon $1,159.99 — vs. 2025's 32TB Bare HDD at $0.06/GB"},
+        {"media": "2TB SD Card (SanDisk, full-size)", "cost_per_gb": 0.275, "note": "New this year — Amazon $549.99. Costs more per GB than the 2TB microSD ($0.1766) despite being the older/larger format"},
+        {"media": "122.88TB SSD (Samsung MZWMOA2THCPA-00AW7)", "cost_per_gb": 0.4639, "yoy_pct": 277, "note": "serversupply.com $57,000.00 — vs. 2025's 122TB SSD at $0.123/GB (exact 2025 SKU/source wasn't recorded, so this comparison assumes same product class). Third data point this year showing a sharp price spike, alongside the microSD and full-size SD entries — likely NAND/enterprise storage shortage"},
+        {"media": "512GB microSD", "cost_per_gb": 0.2324, "yoy_pct": 297, "note": "Amazon $118.98 — vs. 2025's $0.0586/GB. Fourth item this year confirming the storage price spike"},
+        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.3985, "yoy_pct": 77, "note": "Amazon $1,593.99 — vs. 2025's $0.225/GB. Fifth item confirming the 2026 storage price spike"},
+        {"media": "8TB CineMag 5e (VRI-CM5e-8TB)", "cost_per_gb": 3.5176, "note": "PROVISIONAL — $28,141.06 is government pricing, not retail. Same product as 2025's 'Cinemag Ve 8TB' ($6.1628/GB) — 'Ve' is Roman-numeral styling for '5e', not a typo. Don't use for YoY until a comparable retail figure is found"},
+        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.15, "yoy_pct": 97, "note": "Amazon $149.99 — vs. 2025's $0.076/GB. Sixth item confirming the 2026 storage price spike"},
+        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.1, "yoy_pct": 61, "note": "Amazon $99.99 — vs. 2025's $0.062/GB. Seventh item confirming the 2026 storage price spike"},
+        {"media": "30TB Portable SSD (Glyph NVMe)", "cost_per_gb": 0.36, "yoy_pct": 140, "note": "Glyph $10,799.99 — vs. 2025's $0.15/GB. Eighth item confirming the 2026 storage price spike"},
+        {"media": "30TB Portable HDD (Glyph)", "cost_per_gb": 0.0666, "yoy_pct": 163, "note": "B&H Photo $1,999.00 — vs. 2025's $0.0253/GB. Ninth item confirming the 2026 storage price spike"},
+        {"media": "C-60 Cassette (Qty 2)", "cost_per_gb": 32073.86, "yoy_pct": 33.0, "note": "Bookend to the 1977 C-60 baseline (Realistic Low-Noise) — Amazon, 2-pack $11.29 ($5.645 each). Same 60min/176KB capacity as the 1977 baseline for an apples-to-apples comparison. Up 255% vs. the 1977 cassette's $9,034/GB. Now backed by a near-continuous 2011-2026 Keepa price history in historical_catalog_data (2016 unrecorded) — like DS/DD Floppy, this legacy format has gotten far more expensive as a niche product, not cheaper, with a sharp acceleration starting 2023"}
+      ]
     }
   ],
   "historical_catalog_data": [
@@ -203,7 +214,21 @@
     {"year": 2006, "media": "USB Flash Drive 512MB", "cost_per_gb": 78.07, "source": "Radio Shack 2006 Sales Guide", "price": 39.97},
     {"year": 2009, "media": "Verbatim DVD+R 100-pack", "cost_per_gb": 0.021, "source": "Fry's Black Friday Ad Nov 2009", "price_per_100": 9.99},
     {"year": 2009, "media": "Kingston 2GB USB Flash", "cost_per_gb": 13.50, "source": "Fry's Black Friday Ad Nov 2009", "price": 26.99},
-    {"year": 2009, "media": "500GB Serial ATA HDD", "cost_per_gb": 0.068, "source": "Fry's Black Friday Ad Nov 2009", "price": 34.00}
+    {"year": 2009, "media": "500GB Serial ATA HDD", "cost_per_gb": 0.068, "source": "Fry's Black Friday Ad Nov 2009", "price": 34.00},
+    {"year": 2011, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 8607.95, "source": "Amazon via Keepa price history", "price_per_2": 3.03},
+    {"year": 2012, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 11619.32, "source": "Amazon via Keepa price history", "price_per_2": 4.09, "yoy_pct": 35.0},
+    {"year": 2013, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 11960.23, "source": "Amazon via Keepa price history", "price_per_2": 4.21, "yoy_pct": 2.9},
+    {"year": 2014, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 12102.27, "source": "Amazon via Keepa price history", "price_per_2": 4.26, "yoy_pct": 1.2},
+    {"year": 2015, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 17.1},
+    {"year": 2017, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0, "note": "2016 has no Keepa price history — flat vs. 2015"},
+    {"year": 2018, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
+    {"year": 2019, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
+    {"year": 2020, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
+    {"year": 2021, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
+    {"year": 2022, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0, "note": "Price held flat at $4.99 from 2015-2022 (8 years, 2016 unrecorded)"},
+    {"year": 2023, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 20142.05, "source": "Amazon via Keepa price history", "price_per_2": 7.09, "yoy_pct": 42.1, "note": "Breaks the 2015-2022 flat streak"},
+    {"year": 2024, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 25198.86, "source": "Amazon via Keepa price history", "price_per_2": 8.87, "yoy_pct": 25.1},
+    {"year": 2025, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 24119.32, "source": "Amazon via Keepa price history", "price_per_2": 8.49, "yoy_pct": -4.3}
   ],
   "todo_2026": [
     "Find 2010, 2011, 2013, 2014 personal posts",
@@ -211,8 +236,7 @@
     "Get corrected cassette tower image from ChatGPT (237ft not 74ft)",
     "Build callout bubbles for chart showing format introductions",
     "Build scale infographic: cassette tower vs floppy stack vs fingernail",
-    "Draft 2026 LinkedIn/Facebook post narrative",
-    "Research exact blank cassette price for 1977 Radio Shack to finalize cassette $/GB"
+    "Draft 2026 LinkedIn/Facebook post narrative"
   ],
   "cassette_technical": {
     "transfer_rate_bytes_per_sec": 50,
