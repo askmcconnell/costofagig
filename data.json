@@ -169,6 +169,7 @@
     {
       "year": 2026,
       "source": "LinkedIn/Facebook personal post (in progress)",
+      "as_of": "2026-10-09",
       "data": [
         {"media": "2TB microSD (Lexar)", "cost_per_gb": 0.1766, "yoy_pct": 108, "note": "Price per unit $353.22 — notable jump vs. 2025's $0.085/GB"},
         {"media": "DS/DD Floppy", "cost_per_gb": 6928.61, "yoy_pct": -0.03, "note": "Amazon, 10-pack $24.95 — essentially flat vs. 2025's $6,931/GB"},
