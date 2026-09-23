@@ -1,0 +1,166 @@
+<div style="max-width:900px;margin:0 auto;">
+  <canvas id="cog-chart" height="420"></canvas>
+  <p style="font-size:0.8rem;color:#666;text-align:center;margin-top:8px;">
+    Log scale &mdash; each gridline is 10x the price of the one below it. Source data:
+    <a href="https://github.com/askmcconnell/costofagig" target="_blank" rel="noopener">github.com/askmcconnell/costofagig</a>
+  </p>
+</div>
+
+<script>
+(function () {
+  var DATA_URL = "https://raw.githubusercontent.com/askmcconnell/costofagig/main/data.json";
+
+  function loadChartJs(callback) {
+    if (window.Chart) { callback(); return; }
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/chart.js@4";
+    s.onload = callback;
+    s.onerror = function () {
+      document.getElementById("cog-chart").outerHTML =
+        "<p style='color:#c62828;'>Chart.js failed to load. Try refreshing.</p>";
+    };
+    document.head.appendChild(s);
+  }
+
+  function isAnchorMedia(media) {
+    var m = media.toLowerCase();
+    return m.indexOf("cassette") !== -1 ||
+           m.indexOf("ds/dd") !== -1 ||
+           m.indexOf("ss/dd") !== -1 ||
+           m.indexOf("flip/floppy") !== -1;
+  }
+
+  function buildSeries(data) {
+    var byYear = {};
+    function push(year, media, cpg) {
+      if (!byYear[year]) byYear[year] = [];
+      byYear[year].push({ media: media, cpg: cpg });
+    }
+
+    data.historical_catalog_data.forEach(function (h) {
+      push(h.year, h.media, h.cost_per_gb);
+    });
+    data.annual_posts.forEach(function (p) {
+      p.data.forEach(function (item) {
+        push(p.year, item.media, item.cost_per_gb);
+      });
+    });
+
+    var cheapest = {};
+    var dsdd = {};
+    var cassette = {};
+
+    Object.keys(byYear).forEach(function (yearStr) {
+      var year = parseInt(yearStr, 10);
+      var items = byYear[yearStr];
+
+      var nonAnchor = items.filter(function (i) { return !isAnchorMedia(i.media); });
+      if (nonAnchor.length) {
+        cheapest[year] = nonAnchor.reduce(function (a, b) { return a.cpg < b.cpg ? a : b; }).cpg;
+      }
+
+      items.forEach(function (i) {
+        var m = i.media.toLowerCase();
+        if (m.indexOf("cassette") !== -1) cassette[year] = i.cpg;
+        if (m === "ds/dd floppy" || m.indexOf("ds/dd 5.25") === 0) dsdd[year] = i.cpg;
+      });
+    });
+
+    // 1982 baseline lives outside annual_posts/historical_catalog_data
+    if (data.baseline) {
+      if (data.baseline.year) {
+        dsdd[data.baseline.year] = data.baseline.cost_per_gb;
+      }
+    }
+
+    return { cheapest: cheapest, dsdd: dsdd, cassette: cassette };
+  }
+
+  function toPoints(seriesObj) {
+    return Object.keys(seriesObj)
+      .map(function (y) { return { x: parseInt(y, 10), y: seriesObj[y] }; })
+      .sort(function (a, b) { return a.x - b.x; });
+  }
+
+  loadChartJs(function () {
+  fetch(DATA_URL)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var series = buildSeries(data);
+      var ctx = document.getElementById("cog-chart").getContext("2d");
+
+      new Chart(ctx, {
+        type: "line",
+        data: {
+          datasets: [
+            {
+              label: "Cheapest storage that year ($/GB)",
+              data: toPoints(series.cheapest),
+              borderColor: "#2e7d32",
+              backgroundColor: "#2e7d32",
+              spanGaps: true,
+              tension: 0.15
+            },
+            {
+              label: "DS/DD Floppy - 1982 baseline (still tracked)",
+              data: toPoints(series.dsdd),
+              borderColor: "#f9a825",
+              backgroundColor: "#f9a825",
+              spanGaps: true,
+              tension: 0.15
+            },
+            {
+              label: "C-60 Cassette - 1977 bookend",
+              data: toPoints(series.cassette),
+              borderColor: "#c62828",
+              backgroundColor: "#c62828",
+              spanGaps: true,
+              tension: 0.15
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          interaction: { mode: "nearest", intersect: false },
+          scales: {
+            x: {
+              type: "linear",
+              ticks: { stepSize: 5, callback: function (v) { return Math.round(v); } },
+              title: { display: true, text: "Year" }
+            },
+            y: {
+              type: "logarithmic",
+              title: { display: true, text: "Cost per GB (USD, log scale)" },
+              ticks: {
+                callback: function (value) {
+                  var v = Number(value);
+                  if ([0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000, 100000].indexOf(v) === -1) return null;
+                  return v < 1 ? "$" + v : "$" + v.toLocaleString();
+                }
+              }
+            }
+          },
+          plugins: {
+            legend: { position: "bottom" },
+            tooltip: {
+              callbacks: {
+                label: function (ctx) {
+                  var v = ctx.parsed.y;
+                  var formatted = v < 1 ? "$" + v.toFixed(4) : "$" + v.toLocaleString();
+                  return ctx.dataset.label + ": " + formatted + "/GB";
+                }
+              }
+            }
+          }
+        }
+      });
+    })
+    .catch(function (err) {
+      document.getElementById("cog-chart").outerHTML =
+        "<p style='color:#c62828;'>Chart data failed to load. Try refreshing, or view the raw dataset on " +
+        "<a href='https://github.com/askmcconnell/costofagig'>GitHub</a>.</p>";
+      console.error("Cost of a Gig chart error:", err);
+    });
+  });
+})();
+</script>

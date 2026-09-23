@@ -77,6 +77,7 @@ via Internet Archive
 |---|---|---|
 | Omni Flip/Floppy ad | 1981 | SS/SD Flip Floppy — 5-pack $21, 10-pack $40 |
 | looniephoto.blogspot.com | 2003 | Radio Shack Canada — 256MB SD card ~$130 CAD |
+| cvp.com | 2026 | 8TB CineMag 5e (VRI-CM5e-8TB) — $32,013.44 retail, replaces earlier government-contract pricing |
 
 ---
 
