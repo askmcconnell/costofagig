@@ -33,6 +33,7 @@
     {
       "year": 2012,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2012-10-09",
       "note": "DVD 100-pack $12.95 at Fry's. 1982 inflation-adjusted = $12,535.43 in 2012 dollars.",
       "data": [
         {"media": "DVD 100-pack", "retailer": "Fry's", "cost_per_gb": 0.027}
@@ -41,6 +42,7 @@
     {
       "year": 2015,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2015-10-09",
       "data": [
         {"media": "Blu-Ray", "cost_per_gb": 0.03},
         {"media": "USB", "cost_per_gb": 0.76}
@@ -49,6 +51,7 @@
     {
       "year": 2016,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2016-10-09",
       "note": "DS/DD price likely $2,510 not $2.51 — sweet tea incident",
       "data": [
         {"media": "Blu-Ray", "cost_per_gb": 0.018},
@@ -60,6 +63,7 @@
     {
       "year": 2017,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2017-10-09",
       "note": "DS/DD 'back up to about the same price per gig as in 1982'",
       "data": [
         {"media": "Blu-Ray", "cost_per_gb": 0.017},
@@ -71,6 +75,7 @@
     {
       "year": 2018,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2018-10-09",
       "note": "1TB USB at $430 = $6.8M worth of DS/DD at 1982 prices",
       "data": [
         {"media": "Blu-Ray", "cost_per_gb": 0.03},
@@ -82,6 +87,7 @@
     {
       "year": 2019,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2019-10-09",
       "note": "1TB microSD $299.99. '1982: 36ft tall stack of boxes. 2019: size of your thumbnail.'",
       "data": [
         {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.300}
@@ -90,6 +96,7 @@
     {
       "year": 2020,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2020-10-09",
       "data": [
         {"media": "8TB Portable HDD", "cost_per_gb": 0.016},
         {"media": "2TB Thumb Drive", "cost_per_gb": 0.020},
@@ -101,6 +108,7 @@
     {
       "year": 2021,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2021-10-09",
       "data": [
         {"media": "12TB Portable HDD", "cost_per_gb": 0.023},
         {"media": "2TB Thumb Drive (Generic)", "cost_per_gb": 0.020},
@@ -112,6 +120,7 @@
     {
       "year": 2022,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2022-10-09",
       "data": [
         {"media": "18TB Portable HDD", "cost_per_gb": 0.019},
         {"media": "2TB Thumb Drive (Generic)", "cost_per_gb": 0.010},
@@ -124,6 +133,7 @@
     {
       "year": 2023,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2023-10-09",
       "data": [
         {"media": "22TB Portable HDD", "cost_per_gb": 0.019},
         {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.023},
@@ -138,6 +148,7 @@
     {
       "year": 2024,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2024-10-09",
       "data": [
         {"media": "24TB Portable HDD", "cost_per_gb": 0.018, "yoy_pct": -4},
         {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.011, "yoy_pct": -52},
@@ -152,6 +163,7 @@
     {
       "year": 2025,
       "source": "LinkedIn/Facebook personal post",
+      "as_of": "2025-10-09",
       "data": [
         {"media": "30TB Portable HDD", "cost_per_gb": 0.0253, "yoy_pct": 38, "note": "Upgrade from 24TB"},
         {"media": "512GB microSD", "cost_per_gb": 0.0586, "yoy_pct": -4},
