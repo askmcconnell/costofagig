@@ -253,12 +253,13 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 
 ## To Do (Before October 2026)
 
-- [ ] Find 2010, 2011, 2013, 2014 personal posts
-- [ ] Add cassette row to annual table
-- [ ] Get corrected cassette tower image from ChatGPT (237ft, not 74ft)
-- [ ] Build callout bubbles for chart (format introductions)
-- [ ] Build scale infographic (cassette tower vs floppy stack vs fingernail)
-- [ ] Draft 2026 LinkedIn/Facebook post narrative
+- [ ] Find 2010, 2013, 2014 personal posts (2011's cassette price is covered via catalog/Keepa data below, but no full personal-post pricing yet for these years)
+- [x] Add cassette row to annual table — done, plus a near-continuous 2011–2025 cassette price history (via Keepa) in the historical dataset
+- [x] Scale infographic (cassette tower vs. floppy stack vs. fingernail) — done as a hand-built SVG on the live page, replacing the plan to fix the erroneous ChatGPT image (was showing 74ft instead of the correct 237ft)
+- [x] Second scale infographic — "The Shrinking Gigabyte," comparing the physical space needed for 1GB across cassette/floppy/microSD/enterprise SSD, all normalized to millimeters
+- [ ] ~~Callout bubbles for chart (format introductions)~~ — decided against; the hero banner's icon timeline already covers this visually
+- [ ] Price for SanDisk's newly announced 256TB SSD, if adding before publishing
+- [ ] Draft 2026 LinkedIn/Facebook post narrative — anchor any "today"/"as of" pricing language to the official post date, October 9, 2026
 
 ---
 
