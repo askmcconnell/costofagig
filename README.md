@@ -248,7 +248,7 @@ Not portable, not consumer, not really a fair fight — a closing "headfake" on 
 
 A 2026 2TB microSD card holds **533,333x more data** than the RAMAC and weighs about a quarter of a gram — **roughly 3.6 million times lighter** than the machine that started it all.
 
-Photo credit: vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC.jpg).
+Photo credits: RAMAC photo by vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC.jpg). microSD photo by Bautsch, CC0, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MicroSDXC.64GB.P1127589.jpg). Shown side-by-side on the live page.
 
 ---
 

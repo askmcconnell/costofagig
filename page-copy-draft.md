@@ -175,8 +175,8 @@ From a 1977 cassette to a 2026 enterprise SSD, that's roughly **150 million time
 
 Not portable, not consumer, not really fair — but too good to leave out. In 1956, IBM shipped the **350 RAMAC**, the first commercial hard disk drive. It held **3.75MB**, weighed **roughly a ton** (sources put the storage unit itself at 1,730&#8211;2,200 lbs), and was about the size of two refrigerators.
 
-*[Photo: IBM 350 RAMAC, https://upload.wikimedia.org/wikipedia/commons/b/b4/IBM_350_RAMAC.jpg]*
-*Photo: vnunet.com, CC BY-SA 2.5, via Wikimedia Commons*
+*[Embed `ramac-compare-embed.html` here — side-by-side photos, RAMAC vs. 2026 microSD]*
+*Left: IBM 350 RAMAC, photo by vnunet.com, CC BY-SA 2.5, via Wikimedia Commons. Right: 2TB microSD card, photo by Bautsch, CC0, via Wikimedia Commons.*
 
 The 2TB microSD card from this year's table &#8212; the one the size of a fingernail &#8212; holds **533,000 times more data** than the RAMAC, and weighs about a quarter of a gram: **roughly 3.6 million times lighter** than the machine that started it all.
 
