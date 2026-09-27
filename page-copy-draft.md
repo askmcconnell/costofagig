@@ -140,6 +140,37 @@ Same gigabyte, same unit, 49 years apart: **1.23 billion times smaller.** Price 
 
 ---
 
+## P.S. — How Long to Move a Gigabyte?
+
+One last angle: not what a gigabyte cost or how much space it needed, but how fast you could actually move it — using each format's native media interface, not network speed. Filling in the gap between 1982 and today with a few of the interface generations in between (SCSI, IDE/PATA, USB 2.0, SATA) turns this into its own 49-year timeline. These are realistic sustained figures for the interface itself, not marketing peak numbers, and real-world speed varies by specific product — treat them as representative, not exact for every drive on the shelf.
+
+*[Embed `speed-embed.html` here]*
+
+| Media | Year | Interface | Speed | Time for 1 GB |
+|---|---|---|---|---|
+| C-60 Cassette | 1977 | Tape edge connector | 50 bytes/sec | ~231 days |
+| DS/DD Floppy | 1982 | Floppy controller (MFM) | 31.25 KB/s | ~8 hr 53 min |
+| SCSI-1 | 1986 | Parallel SCSI bus | 5 MB/s | ~3 min 20 sec |
+| IDE/PATA (ATA-1) | 1986 | Parallel ATA | 8.3 MB/s | ~2 min |
+| USB 2.0 | 2000 | USB bus | ~35 MB/s sustained | ~28.6 sec |
+| SATA I | 2003 | Serial ATA (1.5 Gbps) | 150 MB/s | ~6.7 sec |
+| microSD / SD Card | 2025–26 | UHS-I bus | 104 MB/s | ~9.6 sec |
+| USB Thumb Drive | 2025–26 | USB 3.0 | ~150 MB/s typical | ~6.7 sec |
+| HDD (Portable/Bare) | 2025–26 | SATA III, platter-limited | ~250 MB/s | ~4.0 sec |
+| CFExpress Type B | 2025–26 | PCIe 3.0 x2 | ~1,700 MB/s | ~0.59 sec |
+| Portable SSD | 2025–26 | Thunderbolt 3 NVMe | ~2,800 MB/s | ~0.36 sec |
+| Enterprise SSD (100TB+) | 2026 | PCIe 5.0 NVMe (Samsung BM1743) | 7,500 MB/s | ~0.13 sec |
+
+One odd wrinkle: a 2003 SATA I hard-drive interface (150 MB/s) is technically faster than a 2025 microSD card's UHS-I bus (104 MB/s). Flash storage's bottleneck these days usually isn't the interface — it's the card's own controller and NAND, not the bus it's plugged into.
+
+From a 1977 cassette to a 2026 enterprise SSD, that's roughly **150 million times faster** — a 231-day transfer collapsed into about 0.13 seconds.
+
+*Not pictured: the 8TB CineMag 5e. Its native interface streams directly off a Phantom high-speed camera sensor at up to 1.4 gigapixels/second — a pixel rate, not a byte rate — and offloading footage from it goes over Gigabit/10-Gigabit Ethernet, which is network speed. Different enough that it doesn't belong in a media-interface comparison.*
+
+**Further reading:** for a broader history of how we got here, CDW has a good timeline of computer storage and memory: [Timeline of Computer Storage and Memory](https://www.cdw.com/content/cdw/en/articles/datacenter/timeline-of-computer-storage-and-memory.html).
+
+---
+
 ## Open items before the annual posts are "final"
 - [ ] Price for SanDisk's newly announced 256TB SSD, if you want to add it before publishing
 - [ ] Draft LinkedIn/Facebook post narrative — anchor any "today"/"as of" pricing language to October 9, 2026

@@ -36,7 +36,11 @@
       "as_of": "2012-10-09",
       "note": "DVD 100-pack $12.95 at Fry's. 1982 inflation-adjusted = $12,535.43 in 2012 dollars.",
       "data": [
-        {"media": "DVD 100-pack", "retailer": "Fry's", "cost_per_gb": 0.027}
+        {
+          "media": "DVD 100-pack",
+          "retailer": "Fry's",
+          "cost_per_gb": 0.027
+        }
       ]
     },
     {
@@ -44,20 +48,39 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2015-10-09",
       "data": [
-        {"media": "Blu-Ray", "cost_per_gb": 0.03},
-        {"media": "USB", "cost_per_gb": 0.76}
+        {
+          "media": "Blu-Ray",
+          "cost_per_gb": 0.03
+        },
+        {
+          "media": "USB",
+          "cost_per_gb": 0.76
+        }
       ]
     },
     {
       "year": 2016,
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2016-10-09",
-      "note": "DS/DD price likely $2,510 not $2.51 — sweet tea incident",
+      "note": "DS/DD price likely $2,510 not $2.51 \u2014 sweet tea incident",
       "data": [
-        {"media": "Blu-Ray", "cost_per_gb": 0.018},
-        {"media": "Micro SD", "cost_per_gb": 0.390},
-        {"media": "USB", "cost_per_gb": 0.210},
-        {"media": "DS/DD Floppy", "cost_per_gb": 2510, "note": "Likely typo — missing comma"}
+        {
+          "media": "Blu-Ray",
+          "cost_per_gb": 0.018
+        },
+        {
+          "media": "Micro SD",
+          "cost_per_gb": 0.39
+        },
+        {
+          "media": "USB",
+          "cost_per_gb": 0.21
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 2510,
+          "note": "Likely typo \u2014 missing comma"
+        }
       ]
     },
     {
@@ -66,10 +89,22 @@
       "as_of": "2017-10-09",
       "note": "DS/DD 'back up to about the same price per gig as in 1982'",
       "data": [
-        {"media": "Blu-Ray", "cost_per_gb": 0.017},
-        {"media": "Micro SD", "cost_per_gb": 0.340},
-        {"media": "USB", "cost_per_gb": 0.210},
-        {"media": "DS/DD Floppy", "cost_per_gb": 5950}
+        {
+          "media": "Blu-Ray",
+          "cost_per_gb": 0.017
+        },
+        {
+          "media": "Micro SD",
+          "cost_per_gb": 0.34
+        },
+        {
+          "media": "USB",
+          "cost_per_gb": 0.21
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 5950
+        }
       ]
     },
     {
@@ -78,10 +113,22 @@
       "as_of": "2018-10-09",
       "note": "1TB USB at $430 = $6.8M worth of DS/DD at 1982 prices",
       "data": [
-        {"media": "Blu-Ray", "cost_per_gb": 0.03},
-        {"media": "Micro SD", "cost_per_gb": 0.08},
-        {"media": "Cheap USB", "cost_per_gb": 0.20},
-        {"media": "DS/DD Floppy", "cost_per_gb": 6805}
+        {
+          "media": "Blu-Ray",
+          "cost_per_gb": 0.03
+        },
+        {
+          "media": "Micro SD",
+          "cost_per_gb": 0.08
+        },
+        {
+          "media": "Cheap USB",
+          "cost_per_gb": 0.2
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 6805
+        }
       ]
     },
     {
@@ -90,7 +137,10 @@
       "as_of": "2019-10-09",
       "note": "1TB microSD $299.99. '1982: 36ft tall stack of boxes. 2019: size of your thumbnail.'",
       "data": [
-        {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.300}
+        {
+          "media": "1TB microSD (Name Brand)",
+          "cost_per_gb": 0.3
+        }
       ]
     },
     {
@@ -98,11 +148,26 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2020-10-09",
       "data": [
-        {"media": "8TB Portable HDD", "cost_per_gb": 0.016},
-        {"media": "2TB Thumb Drive", "cost_per_gb": 0.020},
-        {"media": "512GB microSD", "cost_per_gb": 0.150},
-        {"media": "1TB microSD", "cost_per_gb": 0.234},
-        {"media": "DS/DD Floppy", "cost_per_gb": 2765.89}
+        {
+          "media": "8TB Portable HDD",
+          "cost_per_gb": 0.016
+        },
+        {
+          "media": "2TB Thumb Drive",
+          "cost_per_gb": 0.02
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.15
+        },
+        {
+          "media": "1TB microSD",
+          "cost_per_gb": 0.234
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 2765.89
+        }
       ]
     },
     {
@@ -110,11 +175,26 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2021-10-09",
       "data": [
-        {"media": "12TB Portable HDD", "cost_per_gb": 0.023},
-        {"media": "2TB Thumb Drive (Generic)", "cost_per_gb": 0.020},
-        {"media": "512GB microSD", "cost_per_gb": 0.034},
-        {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.155},
-        {"media": "DS/DD Floppy", "cost_per_gb": 4430}
+        {
+          "media": "12TB Portable HDD",
+          "cost_per_gb": 0.023
+        },
+        {
+          "media": "2TB Thumb Drive (Generic)",
+          "cost_per_gb": 0.02
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.034
+        },
+        {
+          "media": "1TB microSD (Name Brand)",
+          "cost_per_gb": 0.155
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 4430
+        }
       ]
     },
     {
@@ -122,12 +202,30 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2022-10-09",
       "data": [
-        {"media": "18TB Portable HDD", "cost_per_gb": 0.019},
-        {"media": "2TB Thumb Drive (Generic)", "cost_per_gb": 0.010},
-        {"media": "512GB microSD", "cost_per_gb": 0.101},
-        {"media": "1TB microSD (Name Brand)", "cost_per_gb": 0.126},
-        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.450},
-        {"media": "DS/DD Floppy", "cost_per_gb": 8816}
+        {
+          "media": "18TB Portable HDD",
+          "cost_per_gb": 0.019
+        },
+        {
+          "media": "2TB Thumb Drive (Generic)",
+          "cost_per_gb": 0.01
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.101
+        },
+        {
+          "media": "1TB microSD (Name Brand)",
+          "cost_per_gb": 0.126
+        },
+        {
+          "media": "CFExpress Type B 4TB",
+          "cost_per_gb": 0.45
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 8816
+        }
       ]
     },
     {
@@ -135,14 +233,38 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2023-10-09",
       "data": [
-        {"media": "22TB Portable HDD", "cost_per_gb": 0.019},
-        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.023},
-        {"media": "8TB Portable SSD", "cost_per_gb": 0.062},
-        {"media": "512GB microSD", "cost_per_gb": 0.064},
-        {"media": "1.5TB microSD", "cost_per_gb": 0.070},
-        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.125},
-        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.450},
-        {"media": "DS/DD Floppy", "cost_per_gb": 8331}
+        {
+          "media": "22TB Portable HDD",
+          "cost_per_gb": 0.019
+        },
+        {
+          "media": "1TB Thumb Drive (Generic)",
+          "cost_per_gb": 0.023
+        },
+        {
+          "media": "8TB Portable SSD",
+          "cost_per_gb": 0.062
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.064
+        },
+        {
+          "media": "1.5TB microSD",
+          "cost_per_gb": 0.07
+        },
+        {
+          "media": "1TB Thumb Drive (Name Brand)",
+          "cost_per_gb": 0.125
+        },
+        {
+          "media": "CFExpress Type B 4TB",
+          "cost_per_gb": 0.45
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 8331
+        }
       ]
     },
     {
@@ -150,14 +272,46 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2024-10-09",
       "data": [
-        {"media": "24TB Portable HDD", "cost_per_gb": 0.018, "yoy_pct": -4},
-        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.011, "yoy_pct": -52},
-        {"media": "8TB Portable SSD", "cost_per_gb": 0.056, "yoy_pct": -9},
-        {"media": "1TB microSD", "cost_per_gb": 0.057, "yoy_pct": -19},
-        {"media": "512GB microSD", "cost_per_gb": 0.061, "yoy_pct": -4},
-        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.089, "yoy_pct": -29},
-        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.375, "yoy_pct": -17},
-        {"media": "DS/DD Floppy", "cost_per_gb": 4163.889, "yoy_pct": -50}
+        {
+          "media": "24TB Portable HDD",
+          "cost_per_gb": 0.018,
+          "yoy_pct": -4
+        },
+        {
+          "media": "1TB Thumb Drive (Generic)",
+          "cost_per_gb": 0.011,
+          "yoy_pct": -52
+        },
+        {
+          "media": "8TB Portable SSD",
+          "cost_per_gb": 0.056,
+          "yoy_pct": -9
+        },
+        {
+          "media": "1TB microSD",
+          "cost_per_gb": 0.057,
+          "yoy_pct": -19
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.061,
+          "yoy_pct": -4
+        },
+        {
+          "media": "1TB Thumb Drive (Name Brand)",
+          "cost_per_gb": 0.089,
+          "yoy_pct": -29
+        },
+        {
+          "media": "CFExpress Type B 4TB",
+          "cost_per_gb": 0.375,
+          "yoy_pct": -17
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 4163.889,
+          "yoy_pct": -50
+        }
       ]
     },
     {
@@ -165,17 +319,64 @@
       "source": "LinkedIn/Facebook personal post",
       "as_of": "2025-10-09",
       "data": [
-        {"media": "30TB Portable HDD", "cost_per_gb": 0.0253, "yoy_pct": 38, "note": "Upgrade from 24TB"},
-        {"media": "512GB microSD", "cost_per_gb": 0.0586, "yoy_pct": -4},
-        {"media": "32TB Bare HDD", "cost_per_gb": 0.0600, "note": "New this year"},
-        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.0620, "yoy_pct": 461},
-        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.0760, "yoy_pct": -15},
-        {"media": "2TB microSD", "cost_per_gb": 0.0850, "yoy_pct": 49, "note": "Upgrade from 1.5TB"},
-        {"media": "122TB SSD", "cost_per_gb": 0.1230, "note": "New this year"},
-        {"media": "30TB Portable SSD", "cost_per_gb": 0.1500, "yoy_pct": 167, "note": "Upgrade from 8TB"},
-        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.2250, "yoy_pct": -40},
-        {"media": "Cinemag Ve 8TB", "cost_per_gb": 6.1628, "note": "New this year — professional cinema format"},
-        {"media": "DS/DD Floppy", "cost_per_gb": 6931, "yoy_pct": 66}
+        {
+          "media": "30TB Portable HDD",
+          "cost_per_gb": 0.0253,
+          "yoy_pct": 38,
+          "note": "Upgrade from 24TB"
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.0586,
+          "yoy_pct": -4
+        },
+        {
+          "media": "32TB Bare HDD",
+          "cost_per_gb": 0.06,
+          "note": "New this year"
+        },
+        {
+          "media": "1TB Thumb Drive (Generic)",
+          "cost_per_gb": 0.062,
+          "yoy_pct": 461
+        },
+        {
+          "media": "1TB Thumb Drive (Name Brand)",
+          "cost_per_gb": 0.076,
+          "yoy_pct": -15
+        },
+        {
+          "media": "2TB microSD",
+          "cost_per_gb": 0.085,
+          "yoy_pct": 49,
+          "note": "Upgrade from 1.5TB"
+        },
+        {
+          "media": "122TB SSD",
+          "cost_per_gb": 0.123,
+          "note": "New this year"
+        },
+        {
+          "media": "30TB Portable SSD",
+          "cost_per_gb": 0.15,
+          "yoy_pct": 167,
+          "note": "Upgrade from 8TB"
+        },
+        {
+          "media": "CFExpress Type B 4TB",
+          "cost_per_gb": 0.225,
+          "yoy_pct": -40
+        },
+        {
+          "media": "Cinemag Ve 8TB",
+          "cost_per_gb": 6.1628,
+          "note": "New this year \u2014 professional cinema format"
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 6931,
+          "yoy_pct": 66
+        }
       ]
     },
     {
@@ -183,65 +384,398 @@
       "source": "LinkedIn/Facebook personal post (in progress)",
       "as_of": "2026-10-09",
       "data": [
-        {"media": "2TB microSD (Lexar)", "cost_per_gb": 0.1766, "yoy_pct": 108, "note": "Price per unit $353.22 — notable jump vs. 2025's $0.085/GB"},
-        {"media": "DS/DD Floppy", "cost_per_gb": 6928.61, "yoy_pct": -0.03, "note": "Amazon, 10-pack $24.95 — essentially flat vs. 2025's $6,931/GB"},
-        {"media": "32TB Bare HDD (Seagate Skyhawk AI)", "cost_per_gb": 0.0362, "yoy_pct": -40, "note": "Amazon $1,159.99 — vs. 2025's 32TB Bare HDD at $0.06/GB"},
-        {"media": "2TB SD Card (SanDisk, full-size)", "cost_per_gb": 0.275, "note": "New this year — Amazon $549.99. Costs more per GB than the 2TB microSD ($0.1766) despite being the older/larger format"},
-        {"media": "122.88TB SSD (Samsung MZWMOA2THCPA-00AW7)", "cost_per_gb": 0.4639, "yoy_pct": 277, "note": "serversupply.com $57,000.00 — vs. 2025's 122TB SSD at $0.123/GB (exact 2025 SKU/source wasn't recorded, so this comparison assumes same product class). Third data point this year showing a sharp price spike, alongside the microSD and full-size SD entries — likely NAND/enterprise storage shortage"},
-        {"media": "512GB microSD", "cost_per_gb": 0.2324, "yoy_pct": 297, "note": "Amazon $118.98 — vs. 2025's $0.0586/GB. Fourth item this year confirming the storage price spike"},
-        {"media": "CFExpress Type B 4TB", "cost_per_gb": 0.3985, "yoy_pct": 77, "note": "Amazon $1,593.99 — vs. 2025's $0.225/GB. Fifth item confirming the 2026 storage price spike"},
-        {"media": "8TB CineMag 5e (VRI-CM5e-8TB)", "cost_per_gb": 4.0017, "yoy_pct": -35, "note": "cvp.com, $32,013.44 retail — replaces the earlier $28,141.06 government-contract figure. Same product as 2025's 'Cinemag Ve 8TB' ($6.1628/GB) — 'Ve' is Roman-numeral styling for '5e', not a typo."},
-        {"media": "1TB Thumb Drive (Name Brand)", "cost_per_gb": 0.15, "yoy_pct": 97, "note": "Amazon $149.99 — vs. 2025's $0.076/GB. Sixth item confirming the 2026 storage price spike"},
-        {"media": "1TB Thumb Drive (Generic)", "cost_per_gb": 0.1, "yoy_pct": 61, "note": "Amazon $99.99 — vs. 2025's $0.062/GB. Seventh item confirming the 2026 storage price spike"},
-        {"media": "30TB Portable SSD (Glyph NVMe)", "cost_per_gb": 0.36, "yoy_pct": 140, "note": "Glyph $10,799.99 — vs. 2025's $0.15/GB. Eighth item confirming the 2026 storage price spike"},
-        {"media": "30TB Portable HDD (Glyph)", "cost_per_gb": 0.0666, "yoy_pct": 163, "note": "B&H Photo $1,999.00 — vs. 2025's $0.0253/GB. Ninth item confirming the 2026 storage price spike"},
-        {"media": "C-60 Cassette (Qty 2)", "cost_per_gb": 32073.86, "yoy_pct": 33.0, "note": "Bookend to the 1977 C-60 baseline (Realistic Low-Noise) — Amazon, 2-pack $11.29 ($5.645 each). Same 60min/176KB capacity as the 1977 baseline for an apples-to-apples comparison. Up 255% vs. the 1977 cassette's $9,034/GB. Now backed by a near-continuous 2011-2026 Keepa price history in historical_catalog_data (2016 unrecorded) — like DS/DD Floppy, this legacy format has gotten far more expensive as a niche product, not cheaper, with a sharp acceleration starting 2023"}
+        {
+          "media": "2TB microSD (Lexar)",
+          "cost_per_gb": 0.1766,
+          "yoy_pct": 108,
+          "note": "Price per unit $353.22 \u2014 notable jump vs. 2025's $0.085/GB"
+        },
+        {
+          "media": "DS/DD Floppy",
+          "cost_per_gb": 6928.61,
+          "yoy_pct": -0.03,
+          "note": "Amazon, 10-pack $24.95 \u2014 essentially flat vs. 2025's $6,931/GB"
+        },
+        {
+          "media": "32TB Bare HDD (Seagate Skyhawk AI)",
+          "cost_per_gb": 0.0362,
+          "yoy_pct": -40,
+          "note": "Amazon $1,159.99 \u2014 vs. 2025's 32TB Bare HDD at $0.06/GB"
+        },
+        {
+          "media": "2TB SD Card (SanDisk, full-size)",
+          "cost_per_gb": 0.275,
+          "note": "New this year \u2014 Amazon $549.99. Costs more per GB than the 2TB microSD ($0.1766) despite being the older/larger format"
+        },
+        {
+          "media": "122.88TB SSD (Samsung MZWMOA2THCPA-00AW7)",
+          "cost_per_gb": 0.4639,
+          "yoy_pct": 277,
+          "note": "serversupply.com $57,000.00 \u2014 vs. 2025's 122TB SSD at $0.123/GB (exact 2025 SKU/source wasn't recorded, so this comparison assumes same product class). Third data point this year showing a sharp price spike, alongside the microSD and full-size SD entries \u2014 likely NAND/enterprise storage shortage"
+        },
+        {
+          "media": "512GB microSD",
+          "cost_per_gb": 0.2324,
+          "yoy_pct": 297,
+          "note": "Amazon $118.98 \u2014 vs. 2025's $0.0586/GB. Fourth item this year confirming the storage price spike"
+        },
+        {
+          "media": "CFExpress Type B 4TB",
+          "cost_per_gb": 0.3985,
+          "yoy_pct": 77,
+          "note": "Amazon $1,593.99 \u2014 vs. 2025's $0.225/GB. Fifth item confirming the 2026 storage price spike"
+        },
+        {
+          "media": "8TB CineMag 5e (VRI-CM5e-8TB)",
+          "cost_per_gb": 4.0017,
+          "yoy_pct": -35,
+          "note": "cvp.com, $32,013.44 retail \u2014 replaces the earlier $28,141.06 government-contract figure. Same product as 2025's 'Cinemag Ve 8TB' ($6.1628/GB) \u2014 'Ve' is Roman-numeral styling for '5e', not a typo."
+        },
+        {
+          "media": "1TB Thumb Drive (Name Brand)",
+          "cost_per_gb": 0.15,
+          "yoy_pct": 97,
+          "note": "Amazon $149.99 \u2014 vs. 2025's $0.076/GB. Sixth item confirming the 2026 storage price spike"
+        },
+        {
+          "media": "1TB Thumb Drive (Generic)",
+          "cost_per_gb": 0.1,
+          "yoy_pct": 61,
+          "note": "Amazon $99.99 \u2014 vs. 2025's $0.062/GB. Seventh item confirming the 2026 storage price spike"
+        },
+        {
+          "media": "30TB Portable SSD (Glyph NVMe)",
+          "cost_per_gb": 0.36,
+          "yoy_pct": 140,
+          "note": "Glyph $10,799.99 \u2014 vs. 2025's $0.15/GB. Eighth item confirming the 2026 storage price spike"
+        },
+        {
+          "media": "30TB Portable HDD (Glyph)",
+          "cost_per_gb": 0.0666,
+          "yoy_pct": 163,
+          "note": "B&H Photo $1,999.00 \u2014 vs. 2025's $0.0253/GB. Ninth item confirming the 2026 storage price spike"
+        },
+        {
+          "media": "C-60 Cassette (Qty 2)",
+          "cost_per_gb": 32073.86,
+          "yoy_pct": 33.0,
+          "note": "Bookend to the 1977 C-60 baseline (Realistic Low-Noise) \u2014 Amazon, 2-pack $11.29 ($5.645 each). Same 60min/176KB capacity as the 1977 baseline for an apples-to-apples comparison. Up 255% vs. the 1977 cassette's $9,034/GB. Now backed by a near-continuous 2011-2026 Keepa price history in historical_catalog_data (2016 unrecorded) \u2014 like DS/DD Floppy, this legacy format has gotten far more expensive as a niche product, not cheaper, with a sharp acceleration starting 2023"
+        }
       ]
     }
   ],
   "historical_catalog_data": [
-    {"year": 1977, "media": "C-60 Cassette (Realistic Low-Noise)", "cost_per_gb": 9034, "source": "Radio Shack 1977 Catalog Page 83", "price_each": 1.59, "capacity_gb": 0.000176},
-    {"year": 1981, "media": "Flip/Floppy SS/SD 5.25\"", "cost_per_gb": 11364, "source": "Omni Flip/Floppy ad", "note": "5-pack $21, 10-pack $40 — equivalent to 10/20 single-sided disks"},
-    {"year": 1984, "media": "SS/DD 5.25\" Radio Shack", "cost_per_gb": 22699, "source": "Radio Shack 1984 Catalog Page 92", "price_each": 4.95},
-    {"year": 1984, "media": "C-60 Cassette (Realistic Low-Noise)", "cost_per_gb": 11307, "source": "Radio Shack 1984 Catalog Page 92", "price_each": 1.99},
-    {"year": 1986, "media": "DS/DD 5.25\" BASF (box of 10)", "cost_per_gb": 4815, "source": "Computer Shopper Feb 1986 Page 19, Bulldog Computer Products", "price_per_10": 16.95},
-    {"year": 1988, "media": "DS/DD 5.25\" (box of 10)", "cost_per_gb": 3679, "source": "Radio Shack 1988 Catalog", "price_per_10": 12.95},
-    {"year": 1989, "media": "DS/DD 5.25\" Dysan (box of 10)", "cost_per_gb": 1903, "source": "Computer Shopper May 1989 Page 426, McGiga International", "price_per_10": 6.70},
-    {"year": 1990, "media": "DS/DD 5.25\" BASF (box of 10)", "cost_per_gb": 1989, "source": "Computer Shopper Nov 1990, ComputerGear", "price_per_10": 7.00},
-    {"year": 1992, "media": "3.5\" HD Tandy (box of 10)", "cost_per_gb": 2219, "source": "Radio Shack 1992 Catalog", "price_per_10": 31.95},
-    {"year": 1994, "media": "3.5\" HD (box of 10)", "cost_per_gb": 971, "source": "Radio Shack 1994 Catalog", "price_per_10": 13.99},
-    {"year": 1996, "media": "3.5\" DS/HD Flex Disk (box of 10)", "cost_per_gb": 333, "source": "Computer Shopper Jul 1996, Flex Pro-Dupe ad", "price_per_10": 4.80},
-    {"year": 1996, "media": "CD-R TDK (10-pack, 650MB each)", "cost_per_gb": 12.15, "source": "Computer Shopper Jul 1996, TDK ad", "price_per_10": 79.00},
-    {"year": 1997, "media": "3.5\" HD (box of 10)", "cost_per_gb": 553, "source": "Radio Shack 1997 Catalog", "price_per_10": 10.99},
-    {"year": 1997, "media": "Zip 100MB", "cost_per_gb": 130, "source": "Radio Shack 1997 Catalog", "price_each": 13},
-    {"year": 1998, "media": "CD-R 100-pack budget (650MB each)", "cost_per_gb": 2.14, "source": "Computer Shopper May 1998", "price_per_100": 139},
-    {"year": 1998, "media": "CD-R 100-pack standard (650MB each)", "cost_per_gb": 2.69, "source": "Computer Shopper May 1998", "price_per_100": 175},
-    {"year": 1998, "media": "SyQuest 1GB SparQ cartridge", "cost_per_gb": 28, "source": "Computer Shopper May 1998", "price_each": 28},
-    {"year": 1998, "media": "Iomega 1GB Jaz cartridge", "cost_per_gb": 79, "source": "Computer Shopper May 1998", "price_each": 79},
-    {"year": 2000, "media": "CD-R Sony 5-pack (650MB each)", "cost_per_gb": 4.61, "source": "Radio Shack 2000 Catalog", "price_per_5": 14.99},
-    {"year": 2000, "media": "Zip 100MB Fuji", "cost_per_gb": 149, "source": "Radio Shack 2000 Catalog", "price_each": 14.99},
-    {"year": 2001, "media": "CD-R 100-pack budget (650MB each)", "cost_per_gb": 1.02, "source": "Computer Shopper Jul 2001", "price_per_100": 66},
-    {"year": 2001, "media": "USB DiskOnKey 128MB (M-Systems)", "cost_per_gb": 1172, "source": "Maximum PC Dec 2001", "price": 150},
-    {"year": 2003, "media": "USB Thumb Drive 128MB", "cost_per_gb": 281, "source": "Maximum PC Jun 2003", "price": 36},
-    {"year": 2006, "media": "DVD+R Memorex 25-pack (4.7GB each)", "cost_per_gb": 0.170, "source": "Radio Shack 2006 Sales Guide", "price_per_25": 19.99},
-    {"year": 2006, "media": "USB Flash Drive 512MB", "cost_per_gb": 78.07, "source": "Radio Shack 2006 Sales Guide", "price": 39.97},
-    {"year": 2009, "media": "Verbatim DVD+R 100-pack", "cost_per_gb": 0.021, "source": "Fry's Black Friday Ad Nov 2009", "price_per_100": 9.99},
-    {"year": 2009, "media": "Kingston 2GB USB Flash", "cost_per_gb": 13.50, "source": "Fry's Black Friday Ad Nov 2009", "price": 26.99},
-    {"year": 2009, "media": "500GB Serial ATA HDD", "cost_per_gb": 0.068, "source": "Fry's Black Friday Ad Nov 2009", "price": 34.00},
-    {"year": 2011, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 8607.95, "source": "Amazon via Keepa price history", "price_per_2": 3.03},
-    {"year": 2012, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 11619.32, "source": "Amazon via Keepa price history", "price_per_2": 4.09, "yoy_pct": 35.0},
-    {"year": 2013, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 11960.23, "source": "Amazon via Keepa price history", "price_per_2": 4.21, "yoy_pct": 2.9},
-    {"year": 2014, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 12102.27, "source": "Amazon via Keepa price history", "price_per_2": 4.26, "yoy_pct": 1.2},
-    {"year": 2015, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 17.1},
-    {"year": 2017, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0, "note": "2016 has no Keepa price history — flat vs. 2015"},
-    {"year": 2018, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
-    {"year": 2019, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
-    {"year": 2020, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
-    {"year": 2021, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0},
-    {"year": 2022, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 14176.14, "source": "Amazon via Keepa price history", "price_per_2": 4.99, "yoy_pct": 0.0, "note": "Price held flat at $4.99 from 2015-2022 (8 years, 2016 unrecorded)"},
-    {"year": 2023, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 20142.05, "source": "Amazon via Keepa price history", "price_per_2": 7.09, "yoy_pct": 42.1, "note": "Breaks the 2015-2022 flat streak"},
-    {"year": 2024, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 25198.86, "source": "Amazon via Keepa price history", "price_per_2": 8.87, "yoy_pct": 25.1},
-    {"year": 2025, "media": "C-60 Cassette (Qty 2)", "cost_per_gb": 24119.32, "source": "Amazon via Keepa price history", "price_per_2": 8.49, "yoy_pct": -4.3}
+    {
+      "year": 1977,
+      "media": "C-60 Cassette (Realistic Low-Noise)",
+      "cost_per_gb": 9034,
+      "source": "Radio Shack 1977 Catalog Page 83",
+      "price_each": 1.59,
+      "capacity_gb": 0.000176
+    },
+    {
+      "year": 1981,
+      "media": "Flip/Floppy SS/SD 5.25\"",
+      "cost_per_gb": 11364,
+      "source": "Omni Flip/Floppy ad",
+      "note": "5-pack $21, 10-pack $40 \u2014 equivalent to 10/20 single-sided disks"
+    },
+    {
+      "year": 1984,
+      "media": "SS/DD 5.25\" Radio Shack",
+      "cost_per_gb": 22699,
+      "source": "Radio Shack 1984 Catalog Page 92",
+      "price_each": 4.95
+    },
+    {
+      "year": 1984,
+      "media": "C-60 Cassette (Realistic Low-Noise)",
+      "cost_per_gb": 11307,
+      "source": "Radio Shack 1984 Catalog Page 92",
+      "price_each": 1.99
+    },
+    {
+      "year": 1986,
+      "media": "DS/DD 5.25\" BASF (box of 10)",
+      "cost_per_gb": 4815,
+      "source": "Computer Shopper Feb 1986 Page 19, Bulldog Computer Products",
+      "price_per_10": 16.95
+    },
+    {
+      "year": 1988,
+      "media": "DS/DD 5.25\" (box of 10)",
+      "cost_per_gb": 3679,
+      "source": "Radio Shack 1988 Catalog",
+      "price_per_10": 12.95
+    },
+    {
+      "year": 1989,
+      "media": "DS/DD 5.25\" Dysan (box of 10)",
+      "cost_per_gb": 1903,
+      "source": "Computer Shopper May 1989 Page 426, McGiga International",
+      "price_per_10": 6.7
+    },
+    {
+      "year": 1990,
+      "media": "DS/DD 5.25\" BASF (box of 10)",
+      "cost_per_gb": 1989,
+      "source": "Computer Shopper Nov 1990, ComputerGear",
+      "price_per_10": 7.0
+    },
+    {
+      "year": 1992,
+      "media": "3.5\" HD Tandy (box of 10)",
+      "cost_per_gb": 2219,
+      "source": "Radio Shack 1992 Catalog",
+      "price_per_10": 31.95
+    },
+    {
+      "year": 1994,
+      "media": "3.5\" HD (box of 10)",
+      "cost_per_gb": 971,
+      "source": "Radio Shack 1994 Catalog",
+      "price_per_10": 13.99
+    },
+    {
+      "year": 1996,
+      "media": "3.5\" DS/HD Flex Disk (box of 10)",
+      "cost_per_gb": 333,
+      "source": "Computer Shopper Jul 1996, Flex Pro-Dupe ad",
+      "price_per_10": 4.8
+    },
+    {
+      "year": 1996,
+      "media": "CD-R TDK (10-pack, 650MB each)",
+      "cost_per_gb": 12.15,
+      "source": "Computer Shopper Jul 1996, TDK ad",
+      "price_per_10": 79.0
+    },
+    {
+      "year": 1997,
+      "media": "3.5\" HD (box of 10)",
+      "cost_per_gb": 553,
+      "source": "Radio Shack 1997 Catalog",
+      "price_per_10": 10.99
+    },
+    {
+      "year": 1997,
+      "media": "Zip 100MB",
+      "cost_per_gb": 130,
+      "source": "Radio Shack 1997 Catalog",
+      "price_each": 13
+    },
+    {
+      "year": 1998,
+      "media": "CD-R 100-pack budget (650MB each)",
+      "cost_per_gb": 2.14,
+      "source": "Computer Shopper May 1998",
+      "price_per_100": 139
+    },
+    {
+      "year": 1998,
+      "media": "CD-R 100-pack standard (650MB each)",
+      "cost_per_gb": 2.69,
+      "source": "Computer Shopper May 1998",
+      "price_per_100": 175
+    },
+    {
+      "year": 1998,
+      "media": "SyQuest 1GB SparQ cartridge",
+      "cost_per_gb": 28,
+      "source": "Computer Shopper May 1998",
+      "price_each": 28
+    },
+    {
+      "year": 1998,
+      "media": "Iomega 1GB Jaz cartridge",
+      "cost_per_gb": 79,
+      "source": "Computer Shopper May 1998",
+      "price_each": 79
+    },
+    {
+      "year": 2000,
+      "media": "CD-R Sony 5-pack (650MB each)",
+      "cost_per_gb": 4.61,
+      "source": "Radio Shack 2000 Catalog",
+      "price_per_5": 14.99
+    },
+    {
+      "year": 2000,
+      "media": "Zip 100MB Fuji",
+      "cost_per_gb": 149,
+      "source": "Radio Shack 2000 Catalog",
+      "price_each": 14.99
+    },
+    {
+      "year": 2001,
+      "media": "CD-R 100-pack budget (650MB each)",
+      "cost_per_gb": 1.02,
+      "source": "Computer Shopper Jul 2001",
+      "price_per_100": 66
+    },
+    {
+      "year": 2001,
+      "media": "USB DiskOnKey 128MB (M-Systems)",
+      "cost_per_gb": 1172,
+      "source": "Maximum PC Dec 2001",
+      "price": 150
+    },
+    {
+      "year": 2003,
+      "media": "USB Thumb Drive 128MB",
+      "cost_per_gb": 281,
+      "source": "Maximum PC Jun 2003",
+      "price": 36
+    },
+    {
+      "year": 2006,
+      "media": "DVD+R Memorex 25-pack (4.7GB each)",
+      "cost_per_gb": 0.17,
+      "source": "Radio Shack 2006 Sales Guide",
+      "price_per_25": 19.99
+    },
+    {
+      "year": 2006,
+      "media": "USB Flash Drive 512MB",
+      "cost_per_gb": 78.07,
+      "source": "Radio Shack 2006 Sales Guide",
+      "price": 39.97
+    },
+    {
+      "year": 2009,
+      "media": "Verbatim DVD+R 100-pack",
+      "cost_per_gb": 0.021,
+      "source": "Fry's Black Friday Ad Nov 2009",
+      "price_per_100": 9.99
+    },
+    {
+      "year": 2009,
+      "media": "Kingston 2GB USB Flash",
+      "cost_per_gb": 13.5,
+      "source": "Fry's Black Friday Ad Nov 2009",
+      "price": 26.99
+    },
+    {
+      "year": 2009,
+      "media": "500GB Serial ATA HDD",
+      "cost_per_gb": 0.068,
+      "source": "Fry's Black Friday Ad Nov 2009",
+      "price": 34.0
+    },
+    {
+      "year": 2011,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 8607.95,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 3.03
+    },
+    {
+      "year": 2012,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 11619.32,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.09,
+      "yoy_pct": 35.0
+    },
+    {
+      "year": 2013,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 11960.23,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.21,
+      "yoy_pct": 2.9
+    },
+    {
+      "year": 2014,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 12102.27,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.26,
+      "yoy_pct": 1.2
+    },
+    {
+      "year": 2015,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 17.1
+    },
+    {
+      "year": 2017,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 0.0,
+      "note": "2016 has no Keepa price history \u2014 flat vs. 2015"
+    },
+    {
+      "year": 2018,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2019,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2020,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2021,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2022,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 14176.14,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 4.99,
+      "yoy_pct": 0.0,
+      "note": "Price held flat at $4.99 from 2015-2022 (8 years, 2016 unrecorded)"
+    },
+    {
+      "year": 2023,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 20142.05,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 7.09,
+      "yoy_pct": 42.1,
+      "note": "Breaks the 2015-2022 flat streak"
+    },
+    {
+      "year": 2024,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 25198.86,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 8.87,
+      "yoy_pct": 25.1
+    },
+    {
+      "year": 2025,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 24119.32,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 8.49,
+      "yoy_pct": -4.3
+    }
   ],
   "todo_2026": [
     "Find 2010, 2011, 2013, 2014 personal posts",
@@ -259,5 +793,92 @@
     "source_tape_price_1977": 1.59,
     "source": "Radio Shack 1977 Catalog Page 83, Realistic Low-Noise C-60",
     "cost_per_gb": 9034
+  },
+  "transfer_speeds": {
+    "note": "Native media/interface speed only, not network. Sustained/realistic figures, not marketing peak numbers. Time for 1GB uses decimal GB (1,000,000,000 bytes), consistent with the rest of this dataset.",
+    "excluded": {
+      "media": "8TB CineMag 5e",
+      "reason": "Native interface streams directly off a Phantom high-speed camera sensor at up to 1.4 gigapixels/second (a pixel rate, not a byte rate); footage offload uses Gigabit/10-Gigabit Ethernet, which is network speed and out of scope here."
+    },
+    "entries": [
+      {
+        "media": "C-60 Cassette",
+        "year": 1977,
+        "interface": "Proprietary tape edge connector",
+        "bytes_per_sec": 50,
+        "note": "Matches cassette_technical.transfer_rate_bytes_per_sec"
+      },
+      {
+        "media": "DS/DD Floppy",
+        "year": 1982,
+        "interface": "Floppy controller (MFM, 250 kbps)",
+        "bytes_per_sec": 31250
+      },
+      {
+        "media": "SCSI-1",
+        "year": 1986,
+        "interface": "Parallel SCSI bus",
+        "bytes_per_sec": 5000000
+      },
+      {
+        "media": "IDE/PATA (ATA-1)",
+        "year": 1986,
+        "interface": "Parallel ATA",
+        "bytes_per_sec": 8300000
+      },
+      {
+        "media": "USB 2.0",
+        "year": 2000,
+        "interface": "USB bus",
+        "bytes_per_sec": 35000000,
+        "note": "Sustained real-world throughput; spec ceiling is 480Mbps/60MB/s"
+      },
+      {
+        "media": "SATA I",
+        "year": 2003,
+        "interface": "Serial ATA, 1.5 Gbps",
+        "bytes_per_sec": 150000000
+      },
+      {
+        "media": "microSD / SD Card",
+        "year": 2025,
+        "interface": "UHS-I bus",
+        "bytes_per_sec": 104000000
+      },
+      {
+        "media": "USB Thumb Drive",
+        "year": 2025,
+        "interface": "USB 3.0",
+        "bytes_per_sec": 150000000,
+        "note": "Typical sustained speed; varies widely by drive quality"
+      },
+      {
+        "media": "HDD (Portable/Bare)",
+        "year": 2025,
+        "interface": "SATA III, platter-limited",
+        "bytes_per_sec": 250000000
+      },
+      {
+        "media": "CFExpress Type B",
+        "year": 2025,
+        "interface": "PCIe 3.0 x2",
+        "bytes_per_sec": 1700000000
+      },
+      {
+        "media": "Portable SSD",
+        "year": 2025,
+        "interface": "Thunderbolt 3 NVMe",
+        "bytes_per_sec": 2800000000,
+        "note": "Representative Glyph Atom-line spec; exact 30TB SKU spec not independently confirmed"
+      },
+      {
+        "media": "Enterprise SSD (100TB+)",
+        "year": 2026,
+        "interface": "PCIe 5.0 NVMe",
+        "bytes_per_sec": 7500000000,
+        "note": "Samsung BM1743"
+      }
+    ],
+    "headline": "150,000,000x faster from 1977 cassette to 2026 enterprise SSD (a 231-day transfer down to ~0.13 seconds)"
   }
 }

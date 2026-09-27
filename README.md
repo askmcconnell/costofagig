@@ -217,6 +217,31 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 
 ---
 
+## Media Interface Speeds — 1 Gigabyte, Then and Now
+
+Native media/interface speed only (not network), sustained/realistic figures rather than marketing peaks. Time for 1GB uses decimal GB (1,000,000,000 bytes).
+
+| Media | Year | Interface | Speed | Time for 1 GB |
+|---|---|---|---|---|
+| C-60 Cassette | 1977 | Tape edge connector | 50 bytes/sec | ~231 days |
+| DS/DD Floppy | 1982 | Floppy controller (MFM) | 31.25 KB/s | ~8 hr 53 min |
+| SCSI-1 | 1986 | Parallel SCSI bus | 5 MB/s | ~3 min 20 sec |
+| IDE/PATA (ATA-1) | 1986 | Parallel ATA | 8.3 MB/s | ~2 min |
+| USB 2.0 | 2000 | USB bus | ~35 MB/s sustained | ~28.6 sec |
+| SATA I | 2003 | Serial ATA (1.5 Gbps) | 150 MB/s | ~6.7 sec |
+| microSD / SD Card | 2025–26 | UHS-I bus | 104 MB/s | ~9.6 sec |
+| USB Thumb Drive | 2025–26 | USB 3.0 | ~150 MB/s typical | ~6.7 sec |
+| HDD (Portable/Bare) | 2025–26 | SATA III, platter-limited | ~250 MB/s | ~4.0 sec |
+| CFExpress Type B | 2025–26 | PCIe 3.0 x2 | ~1,700 MB/s | ~0.59 sec |
+| Portable SSD | 2025–26 | Thunderbolt 3 NVMe | ~2,800 MB/s | ~0.36 sec |
+| Enterprise SSD (100TB+) | 2026 | PCIe 5.0 NVMe (Samsung BM1743) | 7,500 MB/s | ~0.13 sec |
+
+Not included: the 8TB CineMag 5e. Its native interface streams directly off a Phantom high-speed camera sensor at up to 1.4 gigapixels/second — a pixel rate, not a byte rate — and its footage offload uses Gigabit/10-Gigabit Ethernet, which is network speed and out of scope for a media-interface comparison.
+
+Cassette to enterprise SSD: **150,000,000x faster** — a 231-day transfer down to about 0.13 seconds.
+
+---
+
 ## Cassette Technical Notes (for 2026 post)
 
 - Commodore PET Datasette transfer rate: ~50 bytes/second
@@ -248,6 +273,7 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | Maximum PC Magazine | 2001–2003 | archive.org |
 | Fry's Electronics Ads | 2009 | archive |
 | Jim's LinkedIn/Facebook Posts | 2009–2025 | personal archive |
+| CDW — Timeline of Computer Storage and Memory | general reference | cdw.com |
 
 ---
 
