@@ -880,5 +880,25 @@
       }
     ],
     "headline": "150,000,000x faster from 1977 cassette to 2026 enterprise SSD (a 231-day transfer down to ~0.13 seconds)"
+  },
+  "ramac_comparison": {
+    "ramac": {
+      "model": "IBM 350 RAMAC (part of the IBM 305 RAMAC system)",
+      "year": 1956,
+      "capacity_mb": 3.75,
+      "weight_lbs": 2000,
+      "weight_note": "Commonly cited as \"over a ton\"; sources range 1,730-2,200 lbs depending on whether the separate air compressor unit is included",
+      "size_note": "About the size of two refrigerators",
+      "source": "Computer History Museum, Tom's Hardware, Datarecovery.com"
+    },
+    "microsd_2026": {
+      "model": "2TB microSD (Lexar)",
+      "year": 2026,
+      "capacity_mb": 2000000,
+      "weight_g": 0.25
+    },
+    "capacity_ratio": "533,333x more data on the 2026 microSD",
+    "weight_ratio": "roughly 3.6 million times lighter",
+    "photo_source": "vnunet.com, CC BY-SA 2.5, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC.jpg"
   }
 }

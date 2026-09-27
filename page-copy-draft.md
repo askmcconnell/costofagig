@@ -171,6 +171,19 @@ From a 1977 cassette to a 2026 enterprise SSD, that's roughly **150 million time
 
 ---
 
+## One Last Thing: The First Hard Drive
+
+Not portable, not consumer, not really fair — but too good to leave out. In 1956, IBM shipped the **350 RAMAC**, the first commercial hard disk drive. It held **3.75MB**, weighed **roughly a ton** (sources put the storage unit itself at 1,730&#8211;2,200 lbs), and was about the size of two refrigerators.
+
+*[Photo: IBM 350 RAMAC, https://upload.wikimedia.org/wikipedia/commons/b/b4/IBM_350_RAMAC.jpg]*
+*Photo: vnunet.com, CC BY-SA 2.5, via Wikimedia Commons*
+
+The 2TB microSD card from this year's table &#8212; the one the size of a fingernail &#8212; holds **533,000 times more data** than the RAMAC, and weighs about a quarter of a gram: **roughly 3.6 million times lighter** than the machine that started it all.
+
+One ton of steel and spinning platters for 3.75MB in 1956. A sliver of plastic you could lose in a shag carpet, holding 2 terabytes, in 2026.
+
+---
+
 ## Open items before the annual posts are "final"
 - [ ] Price for SanDisk's newly announced 256TB SSD, if you want to add it before publishing
 - [ ] Draft LinkedIn/Facebook post narrative — anchor any "today"/"as of" pricing language to October 9, 2026

@@ -242,6 +242,16 @@ Cassette to enterprise SSD: **150,000,000x faster** — a 231-day transfer down 
 
 ---
 
+## One Last Thing: The First Hard Drive
+
+Not portable, not consumer, not really a fair fight — a closing "headfake" on the live page. The **IBM 350 RAMAC** (1956), the first commercial hard disk drive: **3.75MB** capacity, storage unit weight commonly cited at **1,730–2,200 lbs** ("over a ton"), about the size of two refrigerators.
+
+A 2026 2TB microSD card holds **533,333x more data** than the RAMAC and weighs about a quarter of a gram — **roughly 3.6 million times lighter** than the machine that started it all.
+
+Photo credit: vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC.jpg).
+
+---
+
 ## Cassette Technical Notes (for 2026 post)
 
 - Commodore PET Datasette transfer rate: ~50 bytes/second

@@ -79,6 +79,8 @@ via Internet Archive
 | looniephoto.blogspot.com | 2003 | Radio Shack Canada — 256MB SD card ~$130 CAD |
 | cvp.com | 2026 | 8TB CineMag 5e (VRI-CM5e-8TB) — $32,013.44 retail, replaces earlier government-contract pricing |
 | CDW — Timeline of Computer Storage and Memory | — | General further-reading reference for the "P.S. — How Long to Move a Gigabyte?" interface-speed section: [cdw.com/.../timeline-of-computer-storage-and-memory.html](https://www.cdw.com/content/cdw/en/articles/datacenter/timeline-of-computer-storage-and-memory.html) |
+| IBM 350 RAMAC specs (1956) | 1956 | Computer History Museum, Tom's Hardware, and Datarecovery.com — 3.75MB capacity, storage unit weight cited 1,730&#8211;2,200 lbs ("over a ton") |
+| IBM 350 RAMAC photo | — | vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC.jpg) — used on the live page's closing "One Last Thing" section |
 
 ---
 
