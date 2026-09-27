@@ -8,6 +8,9 @@
 
 <script>
 (function () {
+  if (window.__cogChartInit) return;
+  window.__cogChartInit = true;
+
   var DATA_URL = "https://raw.githubusercontent.com/askmcconnell/costofagig/main/data.json";
 
   function loadChartJs(callback) {
@@ -89,7 +92,7 @@
       var series = buildSeries(data);
       var ctx = document.getElementById("cog-chart").getContext("2d");
 
-      new Chart(ctx, {
+      var chartInstance = new Chart(ctx, {
         type: "line",
         data: {
           datasets: [
@@ -121,6 +124,9 @@
         },
         options: {
           responsive: true,
+          maintainAspectRatio: true,
+          aspectRatio: 1.8,
+          resizeDelay: 300,
           interaction: { mode: "nearest", intersect: false },
           scales: {
             x: {
@@ -154,6 +160,14 @@
           }
         }
       });
+
+      // WP Rocket's delayed/lazy script handling can occasionally leave Chart.js's
+      // rAF-based animation scheduler stuck, so update() silently no-ops (instance +
+      // data are fine, but zero pixels get drawn). draw() paints synchronously,
+      // bypassing that scheduler, so a couple of cheap calls guarantee it shows.
+      requestAnimationFrame(function () { chartInstance.draw(); });
+      setTimeout(function () { chartInstance.draw(); }, 400);
+      setTimeout(function () { chartInstance.draw(); }, 1200);
     })
     .catch(function (err) {
       document.getElementById("cog-chart").outerHTML =
