@@ -19,7 +19,7 @@ In October 1982, I started my first job in technology — selling boxes of Eleph
 
 Since the mid-2000s, I've done a completely non-scientific retail search each fall — Amazon, Google, whatever's on the shelf — to see what a gigabyte costs. This page is the running record.
 
-For years, this was a scrappy one-page spreadsheet screenshot — 10 to 12 rows, a single year's snapshot next to whatever I remembered pricing the year before. This year, with AI-assisted research pulling from old catalogs, price-history tools, and archived ads, the dataset got a real upgrade: **115 individual price records across 60 different storage media and formats, spanning 34 distinct years back to 1977.**
+For years, this was a scrappy one-page spreadsheet screenshot — 10 to 12 rows, a single year's snapshot next to whatever I remembered pricing the year before. This year, with AI-assisted research pulling from old catalogs, price-history tools, and archived ads, the dataset got a real upgrade: **158 individual price records across 63 different storage media and formats, spanning 34 distinct years back to 1977.**
 
 Prices are retail snapshots from a non-scientific search each fall — mostly Amazon, occasionally a specialty retailer for professional-grade media. Not necessarily the lowest price available anywhere, just a representative real-world number. Full sourcing, historical catalog data (Radio Shack, Computer Shopper, Maximum PC), and the complete year-by-year dataset back to 1977 are public on GitHub:
 
