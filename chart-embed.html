@@ -30,7 +30,10 @@
     return m.indexOf("cassette") !== -1 ||
            m.indexOf("ds/dd") !== -1 ||
            m.indexOf("ss/dd") !== -1 ||
-           m.indexOf("flip/floppy") !== -1;
+           m.indexOf("flip/floppy") !== -1 ||
+           m.indexOf("cd-rw") !== -1 ||
+           m.indexOf("dvd+rw") !== -1 ||
+           m.indexOf("bd-r") !== -1;
   }
 
   function buildSeries(data) {
@@ -52,6 +55,9 @@
     var cheapest = {};
     var dsdd = {};
     var cassette = {};
+    var cdrw = {};
+    var dvdrw = {};
+    var bdr = {};
 
     Object.keys(byYear).forEach(function (yearStr) {
       var year = parseInt(yearStr, 10);
@@ -66,6 +72,9 @@
         var m = i.media.toLowerCase();
         if (m.indexOf("cassette") !== -1) cassette[year] = i.cpg;
         if (m === "ds/dd floppy" || m.indexOf("ds/dd 5.25") === 0) dsdd[year] = i.cpg;
+        if (m.indexOf("cd-rw") !== -1) cdrw[year] = i.cpg;
+        if (m.indexOf("dvd+rw") !== -1) dvdrw[year] = i.cpg;
+        if (m.indexOf("bd-r") !== -1) bdr[year] = i.cpg;
       });
     });
 
@@ -76,7 +85,7 @@
       }
     }
 
-    return { cheapest: cheapest, dsdd: dsdd, cassette: cassette };
+    return { cheapest: cheapest, dsdd: dsdd, cassette: cassette, cdrw: cdrw, dvdrw: dvdrw, bdr: bdr };
   }
 
   function toPoints(seriesObj) {
@@ -123,6 +132,30 @@
                 data: toPoints(series.cassette),
                 borderColor: "#c62828",
                 backgroundColor: "#c62828",
+                spanGaps: true,
+                tension: 0.15
+              },
+              {
+                label: "CD-RW (Verbatim, 700MB)",
+                data: toPoints(series.cdrw),
+                borderColor: "#1565c0",
+                backgroundColor: "#1565c0",
+                spanGaps: true,
+                tension: 0.15
+              },
+              {
+                label: "DVD+RW (Verbatim, 4.7GB)",
+                data: toPoints(series.dvdrw),
+                borderColor: "#6a1b9a",
+                backgroundColor: "#6a1b9a",
+                spanGaps: true,
+                tension: 0.15
+              },
+              {
+                label: "BD-R DL (Verbatim, 50GB)",
+                data: toPoints(series.bdr),
+                borderColor: "#00838f",
+                backgroundColor: "#00838f",
                 spanGaps: true,
                 tension: 0.15
               }

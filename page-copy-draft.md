@@ -33,10 +33,10 @@ Prices are retail snapshots from a non-scientific search each fall — mostly Am
 
 **For the first time in this dataset's history, storage got more expensive almost across the board.**
 
-Of the 13 items priced so far this year:
-- **9 rose year-over-year** — most by 60% to nearly 300%
+Of the 16 items priced so far this year:
+- **11 rose year-over-year** — most by 60% to nearly 300%
 - **2 dropped** (32TB bare HDD, down 40%; 8TB CineMag 5e, down 35%)
-- **1 held essentially flat** (the DS/DD floppy — no surprise there)
+- **2 held essentially flat** (the DS/DD floppy and the newly reintroduced CD-RW — both within a rounding error of last year)
 - **1 is a new entry** with no prior-year comparison yet
 
 For 40+ years, the rule was simple: storage gets cheaper, no matter what else is happening in the economy. This year broke that rule.
@@ -45,11 +45,19 @@ For 40+ years, the rule was simple: storage gets cheaper, no matter what else is
 
 ---
 
+## The Comeback: Optical Media Returns
+
+This year also fills a long-standing gap: rewritable optical media hadn't been tracked here since a single Blu-Ray entry in 2018. Three Verbatim formats — CD-RW, DVD+RW, and BD-R — now have their own multi-year Keepa price histories in the dataset, going back as far as 2011 for BD-R.
+
+The spread between them is stark: CD-RW has run **$1.34–$1.94/GB** across its history, while BD-R has spent most of the last decade under **$0.08/GB** — cheap enough that in 2019 it would have beaten every other format tracked that year. All three appear on the interactive chart as their own reference lines, alongside the DS/DD floppy and cassette, since — like those formats — they're a still-sold niche product today, not a mainstream contender for "cheapest storage."
+
+---
+
 ## Interactive Chart
 
 *[Embed `chart-embed.html` here as a Custom HTML block — see separate file]*
 
-Log-scale chart of the cheapest available storage each year, plotted against two "anchor" formats that never really got cheaper: the DS/DD floppy (1982 baseline) and the C-60 cassette (1977 bookend). The chart pulls live from the [public dataset on GitHub](https://github.com/askmcconnell/costofagig), so it updates automatically every October.
+Log-scale chart of the cheapest available storage each year, plotted against formats that never really got cheaper and are tracked as fixed reference lines: the DS/DD floppy (1982 baseline), the C-60 cassette (1977 bookend), and the three rewritable optical formats (CD-RW, DVD+RW, BD-R). The chart pulls live from the [public dataset on GitHub](https://github.com/askmcconnell/costofagig), so it updates automatically every October.
 
 ---
 
@@ -73,14 +81,17 @@ Log-scale chart of the cheapest available storage each year, plotted against two
 |---|---|---|
 | 32TB Bare HDD (Seagate Skyhawk AI) | $0.0362 | −40% |
 | 30TB Portable HDD (Glyph) | $0.0666 | +163% |
+| BD-R DL 50GB (Verbatim) | $0.08 | +9% |
 | 1TB Thumb Drive (Generic) | $0.10 | +61% |
 | 1TB Thumb Drive (Name Brand) | $0.15 | +97% |
+| DVD+RW 4.7GB (Verbatim) | $0.1651 | +20% |
 | 2TB microSD (Lexar) | $0.1766 | +108% |
 | 512GB microSD | $0.2324 | +297% |
 | 2TB SD Card, full-size (SanDisk) | $0.275 | *new* |
 | 30TB Portable SSD (Glyph NVMe) | $0.36 | +140% |
 | CFExpress Type B 4TB | $0.3985 | +77% |
 | 122.88TB SSD (Samsung) | $0.4639 | +277% |
+| CD-RW 700MB (Verbatim) | $1.8557 | 0% |
 | 8TB CineMag 5e | $4.0017 | −35% |
 | DS/DD Floppy | $6,928.61 | −0.03% |
 | C-60 Cassette (Qty 2) | $32,073.86 | +33% |
@@ -121,6 +132,9 @@ Same idea, broken out per media type — each row is its own lowest and highest 
 | SD Card (full-size) | $0.275 (2026) | $0.275 (2026) | $0.275 |
 | CFExpress Type B 4TB | $0.225 (2025) | $0.45 (2022) | $0.3985 |
 | Enterprise SSD (100TB+) | $0.123 (2025) | $0.4639 (2026) | $0.4639 |
+| BD-R DL 50GB (Verbatim) | $0.054 (2019) | $0.166 (2011) | $0.08 |
+| DVD+RW 4.7GB (Verbatim) | $0.1171 (2015) | $0.1739 (2021) | $0.1651 |
+| CD-RW 700MB (Verbatim) | $1.3371 (2019) | $1.9414 (2023) | $1.8557 |
 | CineMag 5e | $4.0017 (2026) | $6.1628 (2025) | $4.0017 |
 
 ---

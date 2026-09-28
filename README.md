@@ -155,14 +155,17 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 |---|---|---|---|
 | 32TB Bare HDD (Seagate Skyhawk AI) | $0.0362 | -40% | |
 | 30TB Portable HDD (Glyph) | $0.0666 | +163% | |
+| BD-R DL 50GB (Verbatim, 10-pack) | $0.0800 | +9% | Reintroducing optical media — see Keepa history below |
 | 1TB Thumb Drive (Generic) | $0.10 | +61% | |
 | 1TB Thumb Drive (Name Brand) | $0.15 | +97% | |
+| DVD+RW 4.7GB (Verbatim, 30-pack) | $0.1651 | +20% | |
 | 2TB microSD (Lexar) | $0.1766 | +108% | |
 | 512GB microSD | $0.2324 | +297% | |
 | 2TB SD Card, full-size (SanDisk) | $0.275 | New | |
 | 30TB Portable SSD (Glyph NVMe) | $0.36 | +140% | |
 | CFExpress Type B 4TB | $0.3985 | +77% | |
 | 122.88TB SSD (Samsung) | $0.4639 | +277% | |
+| CD-RW 700MB (Verbatim, 10-pack) | $1.8557 | 0% | |
 | 8TB CineMag 5e | $4.0017 | -35% | Same product as 2025's "Cinemag Ve 8TB" |
 | DS/DD Floppy | $6,928.61 | -0.03% | |
 | C-60 Cassette (Qty 2) | $32,073.86 | +33% | |
@@ -223,6 +226,71 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | 2025 | $6,931 |
 
 *Price bounces reflect NOS (New Old Stock) inventory fluctuations — whoever has old stock sets the price.*
+
+---
+
+## Optical Media Price Trajectory (Verbatim, via Keepa)
+
+Reintroduced in 2026 to fill a gap — no optical format had been tracked here since a single Blu-Ray entry in 2018. All three are still-sold Verbatim products with real Amazon/Keepa price histories, priced as close to October 9th of each year as the data allows.
+
+### CD-RW 700MB, 12X, 10-pack slim cases
+
+| Year | $/GB | YoY |
+|---|---|---|
+| 2017 | $1.6571 | |
+| 2018 | $1.5700 | -5.3% |
+| 2019 | $1.3371 | -14.8% |
+| 2020 | $1.6857 | +26.1% |
+| 2021 | $1.6857 | 0% |
+| 2022 | $1.6857 | 0% |
+| 2023 | $1.9414 | +15.2% |
+| 2024 | $1.7471 | -10.0% |
+| 2025 | $1.8571 | +6.3% |
+| 2026 | $1.8557 | -0.1% |
+
+### DVD+RW 4.7GB, 4X, 30-pack spindle
+
+| Year | $/GB | YoY |
+|---|---|---|
+| 2013 | $0.1630 | |
+| 2014 | $0.1186 | -27.2% |
+| 2015 | $0.1171 | -1.3% |
+| 2016 | $0.1276 | +9.0% |
+| 2017 | $0.1276 | 0% |
+| 2018 | $0.1534 | +20.2% |
+| 2019 | $0.1418 | -7.6% |
+| 2020 | $0.1430 | +0.9% |
+| 2021 | $0.1739 | +21.6% |
+| 2022 | $0.1649 | -5.2% |
+| 2023 | $0.1566 | -5.0% |
+| 2024 | $0.1464 | -6.5% |
+| 2025 | $0.1381 | -5.7% |
+| 2026 | $0.1651 | +19.6% |
+
+### BD-R DL 50GB, 8X double layer, 10-pack
+
+| Year | $/GB | YoY |
+|---|---|---|
+| 2011 | $0.1660 | |
+| 2012 | $0.1599 | -3.7% |
+| 2013 | $0.1519 | -5.0% |
+| 2014 | $0.0879 | -42.1% |
+| 2015 | $0.0679 | -22.8% |
+| 2016 | $0.0787 | +15.9% |
+| 2017 | $0.0602 | -23.5% |
+| 2018 | $0.0594 | -1.3% |
+| 2019 | $0.0540 | -9.1% |
+| 2020 | $0.0556 | +3.0% |
+| 2021 | $0.0743 | +33.7% |
+| 2022 | $0.0718 | -3.4% |
+| 2023 | $0.0674 | -6.2% |
+| 2024 | $0.0674 | 0% |
+| 2025 | $0.0733 | +8.8% |
+| 2026 | $0.0800 | +9.1% |
+
+BD-R is the standout: under $0.08/GB for most of the last decade, cheap enough that in 2019 it would have beaten every other format tracked that year ($0.054 vs. that year's sole entry, 1TB microSD at $0.30). CD-RW, by contrast, has never dropped below $1.34/GB — a ~25x gap between the two formats despite both being current-production Verbatim products.
+
+On the interactive chart, all three optical formats are treated as fixed reference lines (like the DS/DD floppy and C-60 cassette) rather than competing for the "cheapest storage that year" line — they're a still-sold niche product, not a mainstream storage contender.
 
 ---
 
@@ -314,6 +382,7 @@ Photo credits: RAMAC photo by vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](
 - [ ] ~~Callout bubbles for chart (format introductions)~~ — decided against; the hero banner's icon timeline already covers this visually
 - [x] SanDisk's newly announced 256TB SSD — used its capacity/form factor in the size-comparison graphic above; no per-GB retail price was needed since it's not in the annual pricing table
 - [x] Draft 2026 LinkedIn/Facebook post narrative — drafted, anchored to the official post date of October 9, 2026; final posting is Jim's own timing, not a repo blocker
+- [x] Reintroduce optical rewritable media — added Verbatim CD-RW (2017–2026), DVD+RW (2013–2026), and BD-R DL (2011–2026) price histories via Keepa, filling the gap since the last Blu-Ray entry in 2018
 
 ---
 
