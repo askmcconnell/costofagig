@@ -339,6 +339,14 @@ Photo credits: RAMAC photo by vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](
 
 ---
 
+## With Thanks
+
+**Sam Watson and Don Watson (Sam's son)** gave Jim his first job in technology, at The Software Store in Tampa in 1982 — the same job that sold the Elephant Brand diskettes that anchor this dataset. Still special people in his life and career, and this project is a small honor to them.
+
+Thanks also to **Keepa** and the many magazine and catalog archive sites (Radio Shack, Computer Shopper, Maximum PC) for making decades of historical pricing findable and citable, and to the **Anthropic Claude team**, whose tools did much of the research and page-building legwork behind this year's edition.
+
+---
+
 ## Cassette Technical Notes (for 2026 post)
 
 - Commodore PET Datasette transfer rate: ~50 bytes/second

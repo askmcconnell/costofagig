@@ -200,6 +200,16 @@ One ton of steel and spinning platters for 3.75MB in 1956. A sliver of plastic y
 
 ---
 
+## With Thanks
+
+This project doesn't happen without a few people and resources.
+
+**Sam Watson and Don Watson (Sam's son)** gave me my first job in technology, at The Software Store in Tampa in 1982 — the same job that sold the Elephant Brand diskettes that anchor this entire dataset. Forty-plus years later, they're still special people in my life and career, and this little project is one small way to say thanks.
+
+Thanks also to **Keepa** and the many magazine and catalog archive sites — Radio Shack, Computer Shopper, Maximum PC, and others — for making decades of historical pricing findable and citable. And thanks to the **Anthropic Claude team**, whose tools did a lot of the research and page-building legwork behind this year's edition.
+
+---
+
 ## Open items before the annual posts are "final"
 - [ ] Price for SanDisk's newly announced 256TB SSD, if you want to add it before publishing
 - [ ] Draft LinkedIn/Facebook post narrative — anchor any "today"/"as of" pricing language to October 9, 2026
