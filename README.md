@@ -150,6 +150,25 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | Cinemag Ve 8TB | $6.1628 | New | Professional cinema format |
 | DS/DD Floppy | $6,931 | +66% | |
 
+### 2026
+| Media | $/GB | YoY | Notes |
+|---|---|---|---|
+| 32TB Bare HDD (Seagate Skyhawk AI) | $0.0362 | -40% | |
+| 30TB Portable HDD (Glyph) | $0.0666 | +163% | |
+| 1TB Thumb Drive (Generic) | $0.10 | +61% | |
+| 1TB Thumb Drive (Name Brand) | $0.15 | +97% | |
+| 2TB microSD (Lexar) | $0.1766 | +108% | |
+| 512GB microSD | $0.2324 | +297% | |
+| 2TB SD Card, full-size (SanDisk) | $0.275 | New | |
+| 30TB Portable SSD (Glyph NVMe) | $0.36 | +140% | |
+| CFExpress Type B 4TB | $0.3985 | +77% | |
+| 122.88TB SSD (Samsung) | $0.4639 | +277% | |
+| 8TB CineMag 5e | $4.0017 | -35% | Same product as 2025's "Cinemag Ve 8TB" |
+| DS/DD Floppy | $6,928.61 | -0.03% | |
+| C-60 Cassette (Qty 2) | $32,073.86 | +33% | |
+
+*Capacity check: the 32TB Bare HDD, both 30TB Portable drives, and the ~122TB SSD are the same size class as their 2025 counterparts — these are genuine price swings, not a "more capacity for the money" story. (The 122TB SSD's exact 2025 SKU wasn't recorded, so that one comparison assumes the same product class.)*
+
 ---
 
 ## Historical Dataset — Catalog & Magazine Sources

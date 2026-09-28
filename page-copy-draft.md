@@ -85,6 +85,8 @@ Log-scale chart of the cheapest available storage each year, plotted against two
 | DS/DD Floppy | $6,928.61 | −0.03% |
 | C-60 Cassette (Qty 2) | $32,073.86 | +33% |
 
+*A capacity check on the big movers: the 32TB Bare HDD, both 30TB Portable drives, and the ~122TB SSD are all the same size class as their 2025 counterparts — these are genuine price swings, not a case of paying more because you're also getting more storage. (The 122TB SSD's exact 2025 SKU wasn't recorded, so that one comparison assumes the same product class.)*
+
 ---
 
 ## The Range: Lowest to Highest to This Year

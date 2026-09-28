@@ -90,84 +90,100 @@
     .then(function (r) { return r.json(); })
     .then(function (data) {
       var series = buildSeries(data);
-      var ctx = document.getElementById("cog-chart").getContext("2d");
+      var lastCanvas = null;
 
-      var chartInstance = new Chart(ctx, {
-        type: "line",
-        data: {
-          datasets: [
-            {
-              label: "Cheapest storage that year ($/GB)",
-              data: toPoints(series.cheapest),
-              borderColor: "#2e7d32",
-              backgroundColor: "#2e7d32",
-              spanGaps: true,
-              tension: 0.15
-            },
-            {
-              label: "DS/DD Floppy - 1982 baseline (still tracked)",
-              data: toPoints(series.dsdd),
-              borderColor: "#f9a825",
-              backgroundColor: "#f9a825",
-              spanGaps: true,
-              tension: 0.15
-            },
-            {
-              label: "C-60 Cassette - 1977 bookend",
-              data: toPoints(series.cassette),
-              borderColor: "#c62828",
-              backgroundColor: "#c62828",
-              spanGaps: true,
-              tension: 0.15
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: true,
-          aspectRatio: 1.8,
-          resizeDelay: 300,
-          interaction: { mode: "nearest", intersect: false },
-          scales: {
-            x: {
-              type: "linear",
-              ticks: { stepSize: 5, callback: function (v) { return Math.round(v); } },
-              title: { display: true, text: "Year" }
-            },
-            y: {
-              type: "logarithmic",
-              title: { display: true, text: "Cost per GB (USD, log scale)" },
-              ticks: {
-                callback: function (value) {
-                  var v = Number(value);
-                  if ([0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000, 100000].indexOf(v) === -1) return null;
-                  return v < 1 ? "$" + v : "$" + v.toLocaleString();
+      function renderChart() {
+        var canvas = document.getElementById("cog-chart");
+        if (!canvas || canvas === lastCanvas) return;
+        lastCanvas = canvas;
+        var ctx = canvas.getContext("2d");
+
+        var chartInstance = new Chart(ctx, {
+          type: "line",
+          data: {
+            datasets: [
+              {
+                label: "Cheapest storage that year ($/GB)",
+                data: toPoints(series.cheapest),
+                borderColor: "#2e7d32",
+                backgroundColor: "#2e7d32",
+                spanGaps: true,
+                tension: 0.15
+              },
+              {
+                label: "DS/DD Floppy - 1982 baseline (still tracked)",
+                data: toPoints(series.dsdd),
+                borderColor: "#f9a825",
+                backgroundColor: "#f9a825",
+                spanGaps: true,
+                tension: 0.15
+              },
+              {
+                label: "C-60 Cassette - 1977 bookend",
+                data: toPoints(series.cassette),
+                borderColor: "#c62828",
+                backgroundColor: "#c62828",
+                spanGaps: true,
+                tension: 0.15
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 1.8,
+            resizeDelay: 300,
+            interaction: { mode: "nearest", intersect: false },
+            scales: {
+              x: {
+                type: "linear",
+                ticks: { stepSize: 5, callback: function (v) { return Math.round(v); } },
+                title: { display: true, text: "Year" }
+              },
+              y: {
+                type: "logarithmic",
+                title: { display: true, text: "Cost per GB (USD, log scale)" },
+                ticks: {
+                  callback: function (value) {
+                    var v = Number(value);
+                    if ([0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000, 100000].indexOf(v) === -1) return null;
+                    return v < 1 ? "$" + v : "$" + v.toLocaleString();
+                  }
                 }
               }
-            }
-          },
-          plugins: {
-            legend: { position: "bottom" },
-            tooltip: {
-              callbacks: {
-                label: function (ctx) {
-                  var v = ctx.parsed.y;
-                  var formatted = v < 1 ? "$" + v.toFixed(4) : "$" + v.toLocaleString();
-                  return ctx.dataset.label + ": " + formatted + "/GB";
+            },
+            plugins: {
+              legend: { position: "bottom" },
+              tooltip: {
+                callbacks: {
+                  label: function (ctx) {
+                    var v = ctx.parsed.y;
+                    var formatted = v < 1 ? "$" + v.toFixed(4) : "$" + v.toLocaleString();
+                    return ctx.dataset.label + ": " + formatted + "/GB";
+                  }
                 }
               }
             }
           }
-        }
-      });
+        });
 
-      // WP Rocket's delayed/lazy script handling can occasionally leave Chart.js's
-      // rAF-based animation scheduler stuck, so update() silently no-ops (instance +
-      // data are fine, but zero pixels get drawn). draw() paints synchronously,
-      // bypassing that scheduler, so a couple of cheap calls guarantee it shows.
-      requestAnimationFrame(function () { chartInstance.draw(); });
-      setTimeout(function () { chartInstance.draw(); }, 400);
-      setTimeout(function () { chartInstance.draw(); }, 1200);
+        // WP Rocket's delayed/lazy script handling can occasionally leave Chart.js's
+        // rAF-based animation scheduler stuck, so update() silently no-ops (instance +
+        // data are fine, but zero pixels get drawn). draw() paints synchronously,
+        // bypassing that scheduler, so a couple of cheap calls guarantee it shows.
+        requestAnimationFrame(function () { chartInstance.draw(); });
+        setTimeout(function () { chartInstance.draw(); }, 400);
+        setTimeout(function () { chartInstance.draw(); }, 1200);
+      }
+
+      renderChart();
+
+      // Some page-optimization plugins (e.g. WP Rocket's lazy-render) can swap
+      // this block's DOM after our script already ran, replacing the canvas
+      // with a fresh, unbound copy and orphaning the chart we already built.
+      // Watch for that and rebuild on whichever canvas is actually live.
+      var observer = new MutationObserver(function () { renderChart(); });
+      observer.observe(document.body, { childList: true, subtree: true });
     })
     .catch(function (err) {
       document.getElementById("cog-chart").outerHTML =
