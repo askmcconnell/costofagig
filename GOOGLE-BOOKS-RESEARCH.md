@@ -1,12 +1,29 @@
 # Google Books PC Magazine Research — Handoff Notes
 
 **Status**: IN PROGRESS
-**Last updated**: 2026-09-29 (Sonnet pass, after Haiku 4.5's first research session)
-**COMMITTED to data.json, README.md, SOURCES.md, live page, and pushed to GitHub**: 1983, 1985, 1987, 1991, 1993 (two vendors), 1995 — 7 entries total across 6 years. Stats now 207 records / 72 media / 40 years.
+**Last updated**: 2026-09-29 (Sonnet pass, after finding a verification gap in Haiku 4.5's first research session)
+**COMMITTED to data.json, README.md, SOURCES.md, live page, and pushed to GitHub**: 1983, 1985, 1987, 1993 (two vendors), 1995 — 6 entries total across 5 years. Stats now 206 records / 72 media / 39 years.
 
-**Cleanup done after the Haiku session** (see TODO.md for the same note): removed an exact duplicate 1993 entry, and removed a 1999 "Iomega ZIP 100MB Drive" entry that priced drive hardware as $/GB media cost — inconsistent with the rest of the dataset. Also flagging the 1991 find ($5.00/box, 3.5" HD) as needing a visual re-check — it dips oddly low between 1987 ($49/box, different format) and 1992 ($31.95/box, same format), possibly an OCR misread from a small screenshot.
+**Cleanup done after the Haiku session** (see TODO.md for the same note): removed an exact duplicate 1993 entry, and removed a 1999 "Iomega ZIP 100MB Drive" entry that priced drive hardware as $/GB media cost — inconsistent with the rest of the dataset.
 
-The `Research Session 2` log below is Haiku's own working notes from that session, left as-is for the historical record — it was written before all its findings were fully committed, so parts of it read as "pending" even though those items are now committed. Trust the status line above and the table under "Gap years status", not the older `Research Session 2` prose.
+**1991 pulled, not just flagged**: the committed entry ($5.00/box, 3.5" HD → $347/GB) was removed entirely, not left in with a warning label. Reason: Haiku's own `Research Session 2` notes below (written *after* it had already committed the entry) describe the 1991 page as "small resolution → needs zoom extraction" and list "1991 extraction" as a HIGH-priority **Next Action** still to be done. In other words, the session's own record shows the price was never actually read at a legible zoom level before it got written to `data.json` — and the citation has no page number, unlike every other entry from this batch. That's not a stylistic judgment call, it's an unverified number that shipped. It needs a real re-read (find the book id `hpmavHER2VIC`, zoom in properly per the technique below, confirm the digits) before it goes back in.
+
+**Why this matters going forward**: Jim isn't reviewing these sessions' browser work in real time, so the *research session itself* has to be trustworthy about what it actually confirmed vs. what it's guessing at — see the **Verification Protocol** below, which is now a required step before anything gets written to `data.json`.
+
+The `Research Session 2` log below is Haiku's own working notes from that session, left as-is for the historical record — it's also the evidence trail that caught the 1991 problem. Trust the status line above and the table under "Gap years status" for current state, not the older prose for what's "done."
+
+## Verification Protocol (required before writing to data.json)
+
+This came out of a real incident: a price got committed to `data.json` even though the same session's own notes said the source page hadn't been read clearly yet. Going forward, any research session (Haiku or otherwise) follows this before adding an entry:
+
+1. **Stage first, commit second.** Don't edit `data.json` directly while researching. Add candidates to the "Findings so far (candidates — NOT yet in data.json)" section of this file, with: the exact book id + page number, a verbatim transcription of the price line as read off the page image, and an explicit confidence note.
+2. **Confidence has exactly two honest states — no in-between:**
+   - **Confirmed legible**: you zoomed to Google Books' own zoom level (not the browser tool's `zoom`, which doesn't crop — see step 5 below), the digits were sharp, and you could re-read the price on a second look without doubt. Cite the page number.
+   - **Not yet confirmed**: anything less — small/blurry screenshot, a guess reconciled from partial digits, a result you're inferring from context. If it's this, it stays in the candidates section with that label. It does **not** get a cost_per_gb calculation or a commit, no matter how plausible the number looks.
+   - A "Next Action" item that says a page needs re-zooming or re-extraction is a hard signal that entry is NOT confirmed — don't let a later part of the same session (or the write-up) commit it anyway.
+3. **Media vs. hardware check, every time**: is this a reusable/consumable storage medium (disk, tape, cartridge, card — sold by capacity) and not a drive/reader/enclosure unit? A $99.99 Zip *drive* is not $/GB media cost; a $99.99 blank cartridge is. (This is exactly the 1999 bug from the first session.)
+4. **Duplicate check**: before adding, grep/search `data.json` for the same year to make sure it's not already there.
+5. **A separate pass reviews the staged candidates before they're merged** — checks the math (cost_per_gb against the established per-format divisor), re-reads the confidence label, and only then edits `data.json`/`README.md`/`SOURCES.md`/the live page together. Don't let the research session be the one that also publishes.
 
 ## The Ask
 
@@ -59,6 +76,10 @@ Computed cost_per_gb:
 - 5.25" DS/DD: $5.95 / 0.00352 GB ≈ **$1,690/GB**
 - 3.5" DS/HD: divisor ≈0.014405 GB/box (reverse-engineered from existing 1992/1994/1996 entries) → $49.00 / 0.014405 ≈ **$3,402/GB**
 
+### 1991 — PC Mag "May 28, 1991" (book id `hpmavHER2VIC`) — NOT CONFIRMED, pulled from data.json
+
+Haiku's session searched "Verbatim diskette" and found a page with MAXELL/SONY/VERBATIM/BASF pricing boxes, and at some point recorded "3.5" High-Density Diskettes = $0.50 each ($5.00/box of 10)" — but its own `Research Session 2` log (below) describes this same page as low-resolution and lists re-extracting it as a still-open Next Action. No page number was ever captured. Confidence: **Not yet confirmed** per the protocol above. Needs a proper zoom-in re-read of book id `hpmavHER2VIC` before it's added back — don't just trust the $5.00 figure because it's already been typed somewhere.
+
 ## Gap years status
 
 | Year | Status | Note |
@@ -67,7 +88,7 @@ Computed cost_per_gb:
 | 1983 | ✅ Committed | Elephant DS/DD $29.95/box → $8,509/GB |
 | 1985 | ✅ Committed | 3M DS/DD $16.20/box → $4,602/GB |
 | 1987 | ✅ Committed | PC Network DS/DD $5.95/box → $1,690/GB (new all-time DS/DD low) |
-| 1991 | ✅ Committed, ⚠️ needs re-check | 3.5" HD $5.00/box → $347/GB — suspiciously low vs. neighbors, possible misread |
+| 1991 | ❌ Pulled | Was committed at $5.00/box → $347/GB, but the source session's own notes admit the page was never read at a legible zoom before it shipped. Needs a real re-read (book id `hpmavHER2VIC`) before re-adding. |
 | 1993 | ✅ Committed | Two vendors, same page: $6.70/box → $479/GB, and $5.60/box → $389/GB |
 | 1995 | ✅ Committed | 3M 3.5" HD diskettes $5.99/box → $415.97/GB |
 | 1999 | ❌ Removed | Haiku's find was a $99.99 Zip *drive* priced as $/GB media cost — a category error (drives aren't media). Worth re-searching this issue for actual Zip *disk* (media) pricing instead. |

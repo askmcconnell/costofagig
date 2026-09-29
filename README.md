@@ -193,7 +193,6 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | 1988 | DS/DD 5.25" | $3,679 | Radio Shack 1988 Catalog |
 | 1989 | DS/DD 5.25" Dysan | $1,903 | Computer Shopper May 1989, Page 426, McGiga International |
 | 1990 | DS/DD 5.25" BASF | $1,989 | Computer Shopper Nov 1990, ComputerGear |
-| 1991 | 3.5" High-Density Diskettes (1.44MB) | $347 | PC Magazine (Google Books), May 28, 1991, classified ads |
 | 1992 | 3.5" HD Tandy | $2,219 | Radio Shack 1992 Catalog |
 | 1993 | 3.5" DS/HD Formatted Diskettes, box of 10 | $479 | PC Magazine (Google Books), May 25, 1993, Page 439, classified ads |
 | 1993 | 3.5" High-Density Diskettes (1.44MB) | $389 | PC Magazine (Google Books), May 25, 1993, Page 439, classified ads |
@@ -469,7 +468,7 @@ Thanks also to **Keepa** and the many magazine and catalog archive sites (Radio 
 - [x] Add Iomega 1GB Jaz cartridge (new-old-stock) — 2020–2026 Keepa price history added alongside the existing 1998 historical entry
 - [x] Add Iomega 250MB Zip disk, 8-pack (new-old-stock) — 2011–2026 Keepa price history added (2025 unrecorded, carried flat from 2024)
 - [x] Add Iomega 750MB Zip disk, 3-pack (new-old-stock) — full 2011–2026 Keepa price history added as a capacity comparison against the 250MB Zip disk (beats it every year, 2.05x–8.13x cheaper per GB)
-- [x] Fill historical gap years using Google Books' PC Magazine archive — six new years (1983, 1985, 1987, 1991, 1993, 1995) sourced from scanned classified/mail-order diskette ads; see `SOURCES.md` and `GOOGLE-BOOKS-RESEARCH.md` for the full technique and findings log. The 1983 Elephant Brand find is a direct year-over-year comparison against the 1982 baseline (same brand, +50%). Still open: 1999, 2002, 2004, 2005, 2007, 2008, 2010.
+- [x] Fill historical gap years using Google Books' PC Magazine archive — five new years (1983, 1985, 1987, 1993, 1995) sourced from scanned classified/mail-order diskette ads; see `SOURCES.md` and `GOOGLE-BOOKS-RESEARCH.md` for the full technique and findings log. The 1983 Elephant Brand find is a direct year-over-year comparison against the 1982 baseline (same brand, +50%). A sixth candidate (1991) was pulled after review — the sourcing session had flagged the page as too low-resolution to confirm before committing it anyway; it needs a legible re-read before it goes back in. Still open: 1991 (re-verify), 1999 (re-verify — see below), 2002, 2004, 2005, 2007, 2008, 2010.
 
 ---
 

@@ -586,15 +586,6 @@
       "price_per_10": 7.0
     },
     {
-      "year": 1991,
-      "media": "3.5\" High-Density Diskettes (1.44MB)",
-      "quantity": "Box of 10",
-      "price": 5.0,
-      "unit_price": 0.5,
-      "cost_per_gb": 347.22,
-      "source": "PC Magazine (Ziff Davis), May 28, 1991, Diskettes classified ads"
-    },
-    {
       "year": 1992,
       "media": "3.5\" HD Tandy (box of 10)",
       "cost_per_gb": 2219,

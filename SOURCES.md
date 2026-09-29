@@ -61,7 +61,6 @@ via books.google.com/books?id=w_OhaFDePS4C
 | Feb–Apr 1983 | 322 | Computer-Line mail-order ad — Elephant 5.25" DS/DD diskettes $29.95/box of 10 |
 | Oct 1, 1985 | 220 | Precision Data Products / 3M ad — 3M 5.25" DS/DD RH $16.20/box of 10 |
 | Oct 13, 1987 | 431–432 | PC Network mail-order ad — 5.25" DS/DD (Lifetime Warranty) $5.95/box of 10 |
-| May 28, 1991 | — | Maxell/Sony/Verbatim/BASF classified ads — 3.5" High-Density diskettes $0.50 each ($5.00/box of 10) |
 | May 25, 1993 | 439 | Formatted Diskettes classified ads — 3.5" High-Density diskettes $0.56 each ($5.60/box of 10); a second vendor on the same page sells pre-formatted 3.5" DS/HD at $0.67 each ($6.70/box of 10) |
 | May 30, 1995 | 193 | 3M 3.5" HD formatted diskettes classified ad — $5.99/box of 10 |
 
