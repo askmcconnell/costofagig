@@ -167,6 +167,7 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | 122.88TB SSD (Samsung) | $0.4639 | +277% | |
 | CD-RW 700MB (Verbatim, 10-pack) | $1.8557 | 0% | |
 | 8TB CineMag 5e | $4.0017 | -35% | Same product as 2025's "Cinemag Ve 8TB" |
+| Iomega 750MB Zip Disk, 3-pack (New) | $13.3289 | 0% | New-old-stock; see Keepa history below |
 | Iomega 1GB Jaz Cartridge (New) | $24.99 | +4% | New-old-stock; see Keepa history below |
 | Iomega 250MB Zip Disk, 8-pack (New) | $42.305 | +21% | New-old-stock; see Keepa history below |
 | DS/DD Floppy | $6,928.61 | -0.03% | |
@@ -336,6 +337,29 @@ Same new-old-stock story as the Jaz cartridge: Zip drives are long discontinued,
 | 2025 | $35.065 | 0% (unrecorded, flat vs. 2024) |
 | 2026 | $42.305 | +20.6% |
 
+### 750MB Zip disk, 3-pack (a second capacity, for comparison)
+
+Same format, same new-old-stock story, tracked separately because the capacity comparison is the interesting part: the 750MB disk has beaten the 250MB's $/GB in **every single year both are recorded** — by anywhere from 2.05x to 8.13x — despite being the exact same discontinued drive format.
+
+| Year | $/GB | YoY |
+|---|---|---|
+| 2011 | $24.4222 | |
+| 2012 | $13.3333 | -45.4% |
+| 2013 | $4.8844 | -63.4% |
+| 2014 | $10.4444 | +113.8% |
+| 2015 | $7.9778 | -23.6% |
+| 2016 | $6.1689 | -22.7% |
+| 2017 | $6.1689 | 0% |
+| 2018 | $7.5022 | +21.6% |
+| 2019 | $6.6444 | -11.4% |
+| 2020 | $7.5022 | +12.9% |
+| 2021 | $8.7778 | +17.0% |
+| 2022 | $8.7778 | 0% |
+| 2023 | $16.8844 | +92.4% |
+| 2024 | $13.3289 | -21.1% |
+| 2025 | $13.3289 | 0% |
+| 2026 | $13.3289 | 0% |
+
 ---
 
 ## Physical Scale — 1 Gigabyte
@@ -437,6 +461,7 @@ Thanks also to **Keepa** and the many magazine and catalog archive sites (Radio 
 - [x] Reintroduce optical rewritable media — added Verbatim CD-RW (2017–2026), DVD+RW (2013–2026), and BD-R DL (2011–2026) price histories via Keepa, filling the gap since the last Blu-Ray entry in 2018
 - [x] Add Iomega 1GB Jaz cartridge (new-old-stock) — 2020–2026 Keepa price history added alongside the existing 1998 historical entry
 - [x] Add Iomega 250MB Zip disk, 8-pack (new-old-stock) — 2011–2026 Keepa price history added (2025 unrecorded, carried flat from 2024)
+- [x] Add Iomega 750MB Zip disk, 3-pack (new-old-stock) — full 2011–2026 Keepa price history added as a capacity comparison against the 250MB Zip disk (beats it every year, 2.05x–8.13x cheaper per GB)
 
 ---
 

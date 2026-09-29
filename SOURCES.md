@@ -83,6 +83,7 @@ via Internet Archive
 | Amazon via Keepa price history | 2011–2026 | Verbatim BD-R DL 50GB 8X double layer, 10-pack |
 | Amazon via Keepa price history | 2020–2026 | Iomega 1GB Jaz Cartridge, new-old-stock |
 | Amazon via Keepa price history | 2011–2026 | Iomega 250MB Zip Disk, 8-pack, new-old-stock (2025 unrecorded) |
+| Amazon via Keepa price history | 2011–2026 | Iomega 750MB Zip Disk, 3-pack, new-old-stock (full continuous history) |
 | CDW — Timeline of Computer Storage and Memory | — | General further-reading reference for the "P.S. — How Long to Move a Gigabyte?" interface-speed section: [cdw.com/.../timeline-of-computer-storage-and-memory.html](https://www.cdw.com/content/cdw/en/articles/datacenter/timeline-of-computer-storage-and-memory.html) |
 | IBM 350 RAMAC specs (1956) | 1956 | Computer History Museum, Tom's Hardware, and Datarecovery.com — 3.75MB capacity, storage unit weight cited 1,730&#8211;2,200 lbs ("over a ton") |
 | IBM 350 RAMAC photo | — | vnunet.com, CC BY-SA 2.5, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_350_RAMAC.jpg) — used on the live page's closing "One Last Thing" section |

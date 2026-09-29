@@ -490,6 +490,12 @@
           "cost_per_gb": 42.305,
           "yoy_pct": 20.6,
           "note": "Amazon, 8-pack $84.61 \u2014 backed by a 2011-2026 Keepa price history in historical_catalog_data (2025 unrecorded, flat vs. 2024). Same new-old-stock story as the Jaz cartridge above: Zip drives are long discontinued, but new blank disks are still sold."
+        },
+        {
+          "media": "Iomega 750MB Zip Disk (3-pack, New)",
+          "cost_per_gb": 13.3289,
+          "yoy_pct": 0.0,
+          "note": "Amazon, 3-pack $29.99 \u2014 backed by a full 2011-2026 Keepa price history in historical_catalog_data, same as the 250MB Zip disk above. The bigger disk has beaten the 250MB's $/GB every single year, by anywhere from 2.05x to 8.13x, despite both being the same discontinued format."
         }
       ]
     }
@@ -819,6 +825,134 @@
       "source": "Amazon via Keepa price history",
       "price_per_8": 84.61,
       "yoy_pct": 20.6
+    },
+    {
+      "year": 2011,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 24.4222,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 54.95,
+      "note": "Same format as the 250MB Zip disk above, tracked separately to compare capacity economics — the 750MB has run consistently cheaper per GB across its history"
+    },
+    {
+      "year": 2012,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3333,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 30.0,
+      "yoy_pct": -45.4
+    },
+    {
+      "year": 2013,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 4.8844,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 10.99,
+      "yoy_pct": -63.4
+    },
+    {
+      "year": 2014,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 10.4444,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 23.5,
+      "yoy_pct": 113.8
+    },
+    {
+      "year": 2015,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 7.9778,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 17.95,
+      "yoy_pct": -23.6
+    },
+    {
+      "year": 2016,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 6.1689,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 13.88,
+      "yoy_pct": -22.7
+    },
+    {
+      "year": 2017,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 6.1689,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 13.88,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2018,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 7.5022,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 16.88,
+      "yoy_pct": 21.6
+    },
+    {
+      "year": 2019,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 6.6444,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 14.95,
+      "yoy_pct": -11.4
+    },
+    {
+      "year": 2020,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 7.5022,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 16.88,
+      "yoy_pct": 12.9
+    },
+    {
+      "year": 2021,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 8.7778,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 19.75,
+      "yoy_pct": 17.0
+    },
+    {
+      "year": 2022,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 8.7778,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 19.75,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 16.8844,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 37.99,
+      "yoy_pct": 92.4
+    },
+    {
+      "year": 2024,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3289,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 29.99,
+      "yoy_pct": -21.1
+    },
+    {
+      "year": 2025,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3289,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 29.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2026,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3289,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 29.99,
+      "yoy_pct": 0.0
     },
     {
       "year": 2001,

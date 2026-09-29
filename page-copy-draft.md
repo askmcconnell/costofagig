@@ -19,7 +19,7 @@ In October 1982, I started my first job in technology — selling boxes of Eleph
 
 Since the mid-2000s, I've done a completely non-scientific retail search each fall — Amazon, Google, whatever's on the shelf — to see what a gigabyte costs. This page is the running record.
 
-For years, this was a scrappy one-page spreadsheet screenshot — 10 to 12 rows, a single year's snapshot next to whatever I remembered pricing the year before. This year, with AI-assisted research pulling from old catalogs, price-history tools, and archived ads, the dataset got a real upgrade: **183 individual price records across 65 different storage media and formats, spanning 34 distinct years back to 1977.**
+For years, this was a scrappy one-page spreadsheet screenshot — 10 to 12 rows, a single year's snapshot next to whatever I remembered pricing the year before. This year, with AI-assisted research pulling from old catalogs, price-history tools, and archived ads, the dataset got a real upgrade: **200 individual price records across 66 different storage media and formats, spanning 34 distinct years back to 1977.**
 
 Prices are retail snapshots from a non-scientific search each fall — mostly Amazon, occasionally a specialty retailer for professional-grade media. Not necessarily the lowest price available anywhere, just a representative real-world number. Full sourcing, historical catalog data (Radio Shack, Computer Shopper, Maximum PC), and the complete year-by-year dataset back to 1977 are public on GitHub:
 
@@ -33,10 +33,10 @@ Prices are retail snapshots from a non-scientific search each fall — mostly Am
 
 **For the first time in this dataset's history, storage got more expensive almost across the board.**
 
-Of the 18 items priced so far this year:
+Of the 19 items priced so far this year:
 - **13 rose year-over-year** — most by 60% to nearly 300%
 - **2 dropped** (32TB bare HDD, down 40%; 8TB CineMag 5e, down 35%)
-- **2 held essentially flat** (the DS/DD floppy and the newly reintroduced CD-RW — both within a rounding error of last year)
+- **3 held essentially flat** (the DS/DD floppy, the newly reintroduced CD-RW, and the 750MB Zip disk — all within a rounding error of last year)
 - **1 is a new entry** with no prior-year comparison yet
 
 For 40+ years, the rule was simple: storage gets cheaper, no matter what else is happening in the economy. This year broke that rule.
@@ -50,6 +50,8 @@ For 40+ years, the rule was simple: storage gets cheaper, no matter what else is
 This year also fills a long-standing gap: rewritable optical media hadn't been tracked here since a single Blu-Ray entry in 2018. Three Verbatim formats — CD-RW, DVD+RW, and BD-R — now have their own multi-year Keepa price histories in the dataset, going back as far as 2011 for BD-R.
 
 The spread between them is stark: CD-RW has run **$1.34–$1.94/GB** across its history, while BD-R has spent most of the last decade under **$0.08/GB** — cheap enough that in 2019 it would have beaten every other format tracked that year. All three appear on the interactive chart as their own reference lines, alongside the DS/DD floppy and cassette, since — like those formats — they're a still-sold niche product today, not a mainstream contender for "cheapest storage."
+
+Two more legacy formats join them this year: **Iomega Jaz and Zip disks.** Both drives were discontinued in the early 2000s, but new-old-stock blank cartridges are still sold on Amazon today — the 1GB Jaz has run $22.99–$24.99/GB since 2020, and the Zip disk has a full 2011–2026 Keepa history in two capacities. The capacity comparison is the interesting part: the 750MB Zip disk has beaten the 250MB's $/GB in **every single year** both are recorded — by anywhere from 2.05x to 8.13x — even though it's the exact same dead format. Bigger media, better economics, no matter how long ago the drives stopped being made.
 
 ---
 
@@ -93,6 +95,7 @@ Log-scale chart of the cheapest available storage each year, plotted against for
 | 122.88TB SSD (Samsung) | $0.4639 | +277% |
 | CD-RW 700MB (Verbatim) | $1.8557 | 0% |
 | 8TB CineMag 5e | $4.0017 | −35% |
+| Iomega 750MB Zip Disk, 3-pack (New) | $13.3289 | 0% |
 | Iomega 1GB Jaz Cartridge (New) | $24.99 | +4% |
 | Iomega 250MB Zip Disk, 8-pack (New) | $42.305 | +21% |
 | DS/DD Floppy | $6,928.61 | −0.03% |
@@ -140,6 +143,7 @@ Same idea, broken out per media type — each row is its own lowest and highest 
 | CineMag 5e | $4.0017 (2026) | $6.1628 (2025) | $4.0017 |
 | Jaz Cartridge, 1GB (New, Amazon) | $22.99 (2020–24) | $24.99 (2026) | $24.99 |
 | Zip Disk, 250MB, 8-pack (New, Amazon) | $24.20 (2019) | $49.995 (2011) | $42.305 |
+| Zip Disk, 750MB, 3-pack (New, Amazon) | $4.8844 (2013) | $24.4222 (2011) | $13.3289 |
 
 ---
 
