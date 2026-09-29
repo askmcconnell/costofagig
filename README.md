@@ -167,6 +167,8 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | 122.88TB SSD (Samsung) | $0.4639 | +277% | |
 | CD-RW 700MB (Verbatim, 10-pack) | $1.8557 | 0% | |
 | 8TB CineMag 5e | $4.0017 | -35% | Same product as 2025's "Cinemag Ve 8TB" |
+| Iomega 1GB Jaz Cartridge (New) | $24.99 | +4% | New-old-stock; see Keepa history below |
+| Iomega 250MB Zip Disk, 8-pack (New) | $42.305 | +21% | New-old-stock; see Keepa history below |
 | DS/DD Floppy | $6,928.61 | -0.03% | |
 | C-60 Cassette (Qty 2) | $32,073.86 | +33% | |
 
@@ -294,6 +296,48 @@ On the interactive chart, all three optical formats are treated as fixed referen
 
 ---
 
+## Iomega Jaz Cartridge Price Trajectory (New, via Keepa)
+
+Iomega Jaz drives were discontinued in the early 2000s, but new-old-stock 1GB Jaz cartridges are still sold on Amazon. Added in 2026 with a 2020–2026 Keepa price history, alongside the original 1998 retail price ($79/GB) already in the historical dataset — down 68% over 28 years for a format whose drives haven't been manufactured in over two decades.
+
+| Year | $/GB | YoY |
+|---|---|---|
+| 1998 | $79.00 | |
+| 2020 | $22.99 | |
+| 2021 | $22.99 | 0% |
+| 2022 | $22.99 | 0% |
+| 2023 | $22.99 | 0% |
+| 2024 | $22.99 | 0% |
+| 2025 | $23.99 | +4.3% |
+| 2026 | $24.99 | +4.2% |
+
+---
+
+## Iomega Zip Disk Price Trajectory (New, via Keepa)
+
+Same new-old-stock story as the Jaz cartridge: Zip drives are long discontinued, but 8-packs of new 250MB Zip disks are still sold on Amazon. 2025 has no recorded Keepa price — carried flat from 2024, same convention used for the C-60 Cassette's 2016 gap.
+
+| Year | $/GB | YoY |
+|---|---|---|
+| 2011 | $49.995 | |
+| 2012 | $45.00 | -10.0% |
+| 2013 | $39.72 | -11.7% |
+| 2014 | $25.00 | -37.1% |
+| 2015 | $37.495 | +50.0% |
+| 2016 | $35.85 | -4.4% |
+| 2017 | $29.975 | -16.4% |
+| 2018 | $35.065 | +17.0% |
+| 2019 | $24.20 | -31.0% |
+| 2020 | $35.065 | +44.9% |
+| 2021 | $35.065 | 0% |
+| 2022 | $35.065 | 0% |
+| 2023 | $35.065 | 0% |
+| 2024 | $35.065 | 0% |
+| 2025 | $35.065 | 0% (unrecorded, flat vs. 2024) |
+| 2026 | $42.305 | +20.6% |
+
+---
+
 ## Physical Scale — 1 Gigabyte
 
 | Media | Units needed | Stack height |
@@ -391,6 +435,8 @@ Thanks also to **Keepa** and the many magazine and catalog archive sites (Radio 
 - [x] SanDisk's newly announced 256TB SSD — used its capacity/form factor in the size-comparison graphic above; no per-GB retail price was needed since it's not in the annual pricing table
 - [x] Draft 2026 LinkedIn/Facebook post narrative — drafted, anchored to the official post date of October 9, 2026; final posting is Jim's own timing, not a repo blocker
 - [x] Reintroduce optical rewritable media — added Verbatim CD-RW (2017–2026), DVD+RW (2013–2026), and BD-R DL (2011–2026) price histories via Keepa, filling the gap since the last Blu-Ray entry in 2018
+- [x] Add Iomega 1GB Jaz cartridge (new-old-stock) — 2020–2026 Keepa price history added alongside the existing 1998 historical entry
+- [x] Add Iomega 250MB Zip disk, 8-pack (new-old-stock) — 2011–2026 Keepa price history added (2025 unrecorded, carried flat from 2024)
 
 ---
 

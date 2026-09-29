@@ -478,6 +478,18 @@
           "cost_per_gb": 0.08,
           "yoy_pct": 9.1,
           "note": "Amazon, 10-pack $39.99. Backed by a 2011-2026 Keepa price history in historical_catalog_data \u2014 the cheapest of the three optical formats by a wide margin, and briefly competitive with flash/HDD pricing in 2019-2020."
+        },
+        {
+          "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+          "cost_per_gb": 24.99,
+          "yoy_pct": 4.2,
+          "note": "Amazon $24.99 for a new-old-stock 1GB Jaz cartridge \u2014 backed by a 2020-2026 Keepa price history in historical_catalog_data. Same 1GB capacity as the format's original 1998 retail price of $79/GB \u2014 down 68% over 28 years, for a format whose drives haven't been manufactured since the early 2000s."
+        },
+        {
+          "media": "Iomega 250MB Zip Disk (8-pack, New)",
+          "cost_per_gb": 42.305,
+          "yoy_pct": 20.6,
+          "note": "Amazon, 8-pack $84.61 \u2014 backed by a 2011-2026 Keepa price history in historical_catalog_data (2025 unrecorded, flat vs. 2024). Same new-old-stock story as the Jaz cartridge above: Zip drives are long discontinued, but new blank disks are still sold."
         }
       ]
     }
@@ -611,6 +623,62 @@
       "price_each": 79
     },
     {
+      "year": 2020,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "note": "New-old-stock 1GB Jaz cartridges still sold new on Amazon, long after Jaz drives themselves were discontinued in the early 2000s"
+    },
+    {
+      "year": 2021,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2022,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2025,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 23.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 23.99,
+      "yoy_pct": 4.3
+    },
+    {
+      "year": 2026,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 24.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 24.99,
+      "yoy_pct": 4.2
+    },
+    {
       "year": 2000,
       "media": "CD-R Sony 5-pack (650MB each)",
       "cost_per_gb": 4.61,
@@ -623,6 +691,134 @@
       "cost_per_gb": 149,
       "source": "Radio Shack 2000 Catalog",
       "price_each": 14.99
+    },
+    {
+      "year": 2011,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 49.995,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 99.99
+    },
+    {
+      "year": 2012,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 45.0,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 90.0,
+      "yoy_pct": -10.0
+    },
+    {
+      "year": 2013,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 39.72,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 79.44,
+      "yoy_pct": -11.7
+    },
+    {
+      "year": 2014,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 25.0,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 50.0,
+      "yoy_pct": -37.1
+    },
+    {
+      "year": 2015,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 37.495,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 74.99,
+      "yoy_pct": 50.0
+    },
+    {
+      "year": 2016,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.85,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 71.7,
+      "yoy_pct": -4.4
+    },
+    {
+      "year": 2017,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 29.975,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 59.95,
+      "yoy_pct": -16.4
+    },
+    {
+      "year": 2018,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 17.0
+    },
+    {
+      "year": 2019,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 24.2,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 48.4,
+      "yoy_pct": -31.0
+    },
+    {
+      "year": 2020,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 44.9
+    },
+    {
+      "year": 2021,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2022,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2025,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0,
+      "note": "2025 has no Keepa price history — flat vs. 2024"
+    },
+    {
+      "year": 2026,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 42.305,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 84.61,
+      "yoy_pct": 20.6
     },
     {
       "year": 2001,
