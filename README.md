@@ -184,14 +184,21 @@ Every year since, Jim has done a non-scientific retail search to find the curren
 | 1977 | C-60 Cassette (Realistic Low-Noise) | $9,034 | Radio Shack 1977 Catalog, Page 83 |
 | 1981 | Flip/Floppy SS/SD 5.25" | $11,364 | Omni Flip/Floppy ad, introductory offer |
 | 1982 | DS/DD Elephant 5.25" | $5,541 | Jim's baseline — The Software Store, Tampa FL |
+| 1983 | Elephant Brand 5.25" DS/DD, box of 10 | $8,509 | PC Magazine (Google Books), Feb-Apr 1983, Page 322, Computer-Line mail-order ad — same brand as the 1982 baseline, +50% YoY |
 | 1984 | SS/DD 5.25" | $22,699 | Radio Shack 1984 Catalog, Page 92 |
 | 1984 | C-60 Cassette (Realistic Low-Noise) | $11,307 | Radio Shack 1984 Catalog, Page 92 |
+| 1985 | 3M 5.25" DS/DD RH, box of 10 | $4,602 | PC Magazine (Google Books), Oct 1, 1985, Page 220, Precision Data Products / 3M ad |
 | 1986 | DS/DD 5.25" BASF | $4,815 | Computer Shopper Feb 1986, Page 19, Bulldog Computer Products |
+| 1987 | 5.25" DS/DD (for PC/XT), box of 10 | $1,690 | PC Magazine (Google Books), Oct 13, 1987, Page 431-432, PC Network "Lifetime Warranty Diskettes" ad |
 | 1988 | DS/DD 5.25" | $3,679 | Radio Shack 1988 Catalog |
 | 1989 | DS/DD 5.25" Dysan | $1,903 | Computer Shopper May 1989, Page 426, McGiga International |
 | 1990 | DS/DD 5.25" BASF | $1,989 | Computer Shopper Nov 1990, ComputerGear |
+| 1991 | 3.5" High-Density Diskettes (1.44MB) | $347 | PC Magazine (Google Books), May 28, 1991, classified ads |
 | 1992 | 3.5" HD Tandy | $2,219 | Radio Shack 1992 Catalog |
+| 1993 | 3.5" DS/HD Formatted Diskettes, box of 10 | $479 | PC Magazine (Google Books), May 25, 1993, Page 439, classified ads |
+| 1993 | 3.5" High-Density Diskettes (1.44MB) | $389 | PC Magazine (Google Books), May 25, 1993, Page 439, classified ads |
 | 1994 | 3.5" HD | $971 | Radio Shack 1994 Catalog |
+| 1995 | 3M 3.5" High-Density Diskettes (1.44MB) | $416 | PC Magazine (Google Books), May 30, 1995, Page 193, classified ad |
 | 1996 | 3.5" HD Flex Disk | $333 | Computer Shopper Jul 1996, Flex Pro-Dupe |
 | 1996 | CD-R TDK 10-pack | $12.15 | Computer Shopper Jul 1996, TDK ad |
 | 1997 | 3.5" HD | $553 | Radio Shack 1997 Catalog |
@@ -462,6 +469,7 @@ Thanks also to **Keepa** and the many magazine and catalog archive sites (Radio 
 - [x] Add Iomega 1GB Jaz cartridge (new-old-stock) — 2020–2026 Keepa price history added alongside the existing 1998 historical entry
 - [x] Add Iomega 250MB Zip disk, 8-pack (new-old-stock) — 2011–2026 Keepa price history added (2025 unrecorded, carried flat from 2024)
 - [x] Add Iomega 750MB Zip disk, 3-pack (new-old-stock) — full 2011–2026 Keepa price history added as a capacity comparison against the 250MB Zip disk (beats it every year, 2.05x–8.13x cheaper per GB)
+- [x] Fill historical gap years using Google Books' PC Magazine archive — six new years (1983, 1985, 1987, 1991, 1993, 1995) sourced from scanned classified/mail-order diskette ads; see `SOURCES.md` and `GOOGLE-BOOKS-RESEARCH.md` for the full technique and findings log. The 1983 Elephant Brand find is a direct year-over-year comparison against the 1982 baseline (same brand, +50%). Still open: 1999, 2002, 2004, 2005, 2007, 2008, 2010.
 
 ---
 

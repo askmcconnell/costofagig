@@ -19,7 +19,9 @@ In October 1982, I started my first job in technology — selling boxes of Eleph
 
 Since the mid-2000s, I've done a completely non-scientific retail search each fall — Amazon, Google, whatever's on the shelf — to see what a gigabyte costs. This page is the running record.
 
-For years, this was a scrappy one-page spreadsheet screenshot — 10 to 12 rows, a single year's snapshot next to whatever I remembered pricing the year before. This year, with AI-assisted research pulling from old catalogs, price-history tools, and archived ads, the dataset got a real upgrade: **200 individual price records across 66 different storage media and formats, spanning 34 distinct years back to 1977.**
+For years, this was a scrappy one-page spreadsheet screenshot — 10 to 12 rows, a single year's snapshot next to whatever I remembered pricing the year before. This year, with AI-assisted research pulling from old catalogs, price-history tools, and archived ads, the dataset got a real upgrade: **207 individual price records across 72 different storage media and formats, spanning 40 distinct years back to 1977.**
+
+Six of those new years came from an unlikely source: Google Books' full-page scans of old PC Magazine issues, which turned up classified mail-order diskette ads the dataset didn't have pricing for — 1983, 1985, 1987, 1991, 1993, and 1995. The best find: a 1983 ad selling the exact same Elephant Brand diskettes from my 1982 baseline, one year later, up 50% to $29.95 a box.
 
 Prices are retail snapshots from a non-scientific search each fall — mostly Amazon, occasionally a specialty retailer for professional-grade media. Not necessarily the lowest price available anywhere, just a representative real-world number. Full sourcing, historical catalog data (Radio Shack, Computer Shopper, Maximum PC), and the complete year-by-year dataset back to 1977 are public on GitHub:
 
@@ -127,7 +129,7 @@ Same idea, broken out per media type — each row is its own lowest and highest 
 | Media | Lowest $/GB | Highest $/GB | 2026 |
 |---|---|---|---|
 | C-60 Cassette | $8,607.95 (2011) | $32,073.86 (2026) | $32,073.86 |
-| DS/DD Floppy | $1,903 (1989) | $8,816 (2022) | $6,928.61 |
+| DS/DD Floppy | $1,690 (1987) | $8,816 (2022) | $6,928.61 |
 | Portable HDD | $0.016 (2020) | $0.0666 (2026) | $0.0666 |
 | Portable SSD | $0.056 (2024) | $0.36 (2026) | $0.36 |
 | Bare HDD | $0.0362 (2026) | $0.0600 (2025) | $0.0362 |

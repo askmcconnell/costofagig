@@ -517,6 +517,15 @@
       "note": "5-pack $21, 10-pack $40 \u2014 equivalent to 10/20 single-sided disks"
     },
     {
+      "year": 1983,
+      "media": "Elephant Brand 5.25\" DS/DD, box of 10",
+      "cost_per_gb": 8509,
+      "source": "PC Magazine Feb-Apr 1983, page 322, Computer-Line mail-order ad",
+      "price_box_of_10": 29.95,
+      "location": "Golden/Denver, CO",
+      "note": "Same brand as 1982 baseline ($19.95/box) \u2014 direct YoY comparison showing 50% price increase"
+    },
+    {
       "year": 1984,
       "media": "SS/DD 5.25\" Radio Shack",
       "cost_per_gb": 22699,
@@ -531,11 +540,29 @@
       "price_each": 1.99
     },
     {
+      "year": 1985,
+      "media": "3M 5.25\" DS/DD RH, box of 10",
+      "cost_per_gb": 4602,
+      "source": "PC Magazine Oct 1, 1985, page 220, Precision Data Products / 3M ad",
+      "price_box_of_10": 16.2,
+      "location": "Grand Rapids, MI",
+      "note": "Significant price drop from 1983"
+    },
+    {
       "year": 1986,
       "media": "DS/DD 5.25\" BASF (box of 10)",
       "cost_per_gb": 4815,
       "source": "Computer Shopper Feb 1986 Page 19, Bulldog Computer Products",
       "price_per_10": 16.95
+    },
+    {
+      "year": 1987,
+      "media": "5.25\" DS/DD (for PC/XT), box of 10",
+      "cost_per_gb": 1690,
+      "source": "PC Magazine Oct 13, 1987, page 431-432, PC Network mail-order ad",
+      "price_box_of_10": 5.95,
+      "brand": "PC Network",
+      "note": "Lifetime Warranty Diskettes"
     },
     {
       "year": 1988,
@@ -559,6 +586,15 @@
       "price_per_10": 7.0
     },
     {
+      "year": 1991,
+      "media": "3.5\" High-Density Diskettes (1.44MB)",
+      "quantity": "Box of 10",
+      "price": 5.0,
+      "unit_price": 0.5,
+      "cost_per_gb": 347.22,
+      "source": "PC Magazine (Ziff Davis), May 28, 1991, Diskettes classified ads"
+    },
+    {
       "year": 1992,
       "media": "3.5\" HD Tandy (box of 10)",
       "cost_per_gb": 2219,
@@ -566,11 +602,37 @@
       "price_per_10": 31.95
     },
     {
+      "year": 1993,
+      "media": "3.5\" DS/HD Formatted Diskettes, 1.4MB, 10-pack",
+      "cost_per_gb": 479,
+      "source": "PC Magazine May 25, 1993, page 439, classified ads (mail-order media)",
+      "price_box_of_10": 6.7,
+      "note": "Formatted (ready to use) diskettes; individual price $0.67 \u00d7 10"
+    },
+    {
+      "year": 1993,
+      "media": "3.5\" High-Density Diskettes (1.44MB)",
+      "quantity": "Box of 10",
+      "price": 5.6,
+      "unit_price": 0.56,
+      "cost_per_gb": 388.89,
+      "source": "PC Magazine (Ziff Davis), May 25, 1993, Page 439"
+    },
+    {
       "year": 1994,
       "media": "3.5\" HD (box of 10)",
       "cost_per_gb": 971,
       "source": "Radio Shack 1994 Catalog",
       "price_per_10": 13.99
+    },
+    {
+      "year": 1995,
+      "media": "3M 3.5\" High-Density Diskettes (1.44MB)",
+      "quantity": "Box of 10",
+      "price": 5.99,
+      "unit_price": 0.599,
+      "cost_per_gb": 415.97,
+      "source": "PC Magazine (Ziff Davis), May 30, 1995, Page 193"
     },
     {
       "year": 1996,
@@ -629,62 +691,6 @@
       "price_each": 79
     },
     {
-      "year": 2020,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 22.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 22.99,
-      "note": "New-old-stock 1GB Jaz cartridges still sold new on Amazon, long after Jaz drives themselves were discontinued in the early 2000s"
-    },
-    {
-      "year": 2021,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 22.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 22.99,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2022,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 22.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 22.99,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2023,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 22.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 22.99,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2024,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 22.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 22.99,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2025,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 23.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 23.99,
-      "yoy_pct": 4.3
-    },
-    {
-      "year": 2026,
-      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
-      "cost_per_gb": 24.99,
-      "source": "Amazon via Keepa price history",
-      "price_each": 24.99,
-      "yoy_pct": 4.2
-    },
-    {
       "year": 2000,
       "media": "CD-R Sony 5-pack (650MB each)",
       "cost_per_gb": 4.61,
@@ -697,262 +703,6 @@
       "cost_per_gb": 149,
       "source": "Radio Shack 2000 Catalog",
       "price_each": 14.99
-    },
-    {
-      "year": 2011,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 49.995,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 99.99
-    },
-    {
-      "year": 2012,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 45.0,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 90.0,
-      "yoy_pct": -10.0
-    },
-    {
-      "year": 2013,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 39.72,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 79.44,
-      "yoy_pct": -11.7
-    },
-    {
-      "year": 2014,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 25.0,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 50.0,
-      "yoy_pct": -37.1
-    },
-    {
-      "year": 2015,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 37.495,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 74.99,
-      "yoy_pct": 50.0
-    },
-    {
-      "year": 2016,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.85,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 71.7,
-      "yoy_pct": -4.4
-    },
-    {
-      "year": 2017,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 29.975,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 59.95,
-      "yoy_pct": -16.4
-    },
-    {
-      "year": 2018,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 17.0
-    },
-    {
-      "year": 2019,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 24.2,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 48.4,
-      "yoy_pct": -31.0
-    },
-    {
-      "year": 2020,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 44.9
-    },
-    {
-      "year": 2021,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2022,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2023,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2024,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2025,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 35.065,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 70.13,
-      "yoy_pct": 0.0,
-      "note": "2025 has no Keepa price history — flat vs. 2024"
-    },
-    {
-      "year": 2026,
-      "media": "Iomega 250MB Zip Disk (8-pack, New)",
-      "cost_per_gb": 42.305,
-      "source": "Amazon via Keepa price history",
-      "price_per_8": 84.61,
-      "yoy_pct": 20.6
-    },
-    {
-      "year": 2011,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 24.4222,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 54.95,
-      "note": "Same format as the 250MB Zip disk above, tracked separately to compare capacity economics — the 750MB has run consistently cheaper per GB across its history"
-    },
-    {
-      "year": 2012,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 13.3333,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 30.0,
-      "yoy_pct": -45.4
-    },
-    {
-      "year": 2013,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 4.8844,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 10.99,
-      "yoy_pct": -63.4
-    },
-    {
-      "year": 2014,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 10.4444,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 23.5,
-      "yoy_pct": 113.8
-    },
-    {
-      "year": 2015,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 7.9778,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 17.95,
-      "yoy_pct": -23.6
-    },
-    {
-      "year": 2016,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 6.1689,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 13.88,
-      "yoy_pct": -22.7
-    },
-    {
-      "year": 2017,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 6.1689,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 13.88,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2018,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 7.5022,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 16.88,
-      "yoy_pct": 21.6
-    },
-    {
-      "year": 2019,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 6.6444,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 14.95,
-      "yoy_pct": -11.4
-    },
-    {
-      "year": 2020,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 7.5022,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 16.88,
-      "yoy_pct": 12.9
-    },
-    {
-      "year": 2021,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 8.7778,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 19.75,
-      "yoy_pct": 17.0
-    },
-    {
-      "year": 2022,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 8.7778,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 19.75,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2023,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 16.8844,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 37.99,
-      "yoy_pct": 92.4
-    },
-    {
-      "year": 2024,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 13.3289,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 29.99,
-      "yoy_pct": -21.1
-    },
-    {
-      "year": 2025,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 13.3289,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 29.99,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2026,
-      "media": "Iomega 750MB Zip Disk (3-pack, New)",
-      "cost_per_gb": 13.3289,
-      "source": "Amazon via Keepa price history",
-      "price_per_3": 29.99,
-      "yoy_pct": 0.0
     },
     {
       "year": 2001,
@@ -1012,10 +762,49 @@
     },
     {
       "year": 2011,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 49.995,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 99.99
+    },
+    {
+      "year": 2011,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 24.4222,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 54.95,
+      "note": "Same format as the 250MB Zip disk above, tracked separately to compare capacity economics \u2014 the 750MB has run consistently cheaper per GB across its history"
+    },
+    {
+      "year": 2011,
       "media": "C-60 Cassette (Qty 2)",
       "cost_per_gb": 8607.95,
       "source": "Amazon via Keepa price history",
       "price_per_2": 3.03
+    },
+    {
+      "year": 2011,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.166,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 82.99,
+      "note": "Verbatim BD-R DL Blank Blu-ray Discs, 50GB 8X Double Layer, 10 Pack"
+    },
+    {
+      "year": 2012,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 45.0,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 90.0,
+      "yoy_pct": -10.0
+    },
+    {
+      "year": 2012,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3333,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 30.0,
+      "yoy_pct": -45.4
     },
     {
       "year": 2012,
@@ -1026,12 +815,68 @@
       "yoy_pct": 35.0
     },
     {
+      "year": 2012,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.1599,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 79.95,
+      "yoy_pct": -3.7
+    },
+    {
+      "year": 2013,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 39.72,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 79.44,
+      "yoy_pct": -11.7
+    },
+    {
+      "year": 2013,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 4.8844,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 10.99,
+      "yoy_pct": -63.4
+    },
+    {
       "year": 2013,
       "media": "C-60 Cassette (Qty 2)",
       "cost_per_gb": 11960.23,
       "source": "Amazon via Keepa price history",
       "price_per_2": 4.21,
       "yoy_pct": 2.9
+    },
+    {
+      "year": 2013,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.163,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 22.98,
+      "note": "Verbatim DVD+RW 4.7GB 4X Rewritable Discs, 30 Pack Spindle"
+    },
+    {
+      "year": 2013,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.1519,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 75.95,
+      "yoy_pct": -5.0
+    },
+    {
+      "year": 2014,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 25.0,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 50.0,
+      "yoy_pct": -37.1
+    },
+    {
+      "year": 2014,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 10.4444,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 23.5,
+      "yoy_pct": 113.8
     },
     {
       "year": 2014,
@@ -1042,12 +887,108 @@
       "yoy_pct": 1.2
     },
     {
+      "year": 2014,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1186,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 16.72,
+      "yoy_pct": -27.2
+    },
+    {
+      "year": 2014,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0879,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 43.95,
+      "yoy_pct": -42.1
+    },
+    {
+      "year": 2015,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 37.495,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 74.99,
+      "yoy_pct": 50.0
+    },
+    {
+      "year": 2015,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 7.9778,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 17.95,
+      "yoy_pct": -23.6
+    },
+    {
       "year": 2015,
       "media": "C-60 Cassette (Qty 2)",
       "cost_per_gb": 14176.14,
       "source": "Amazon via Keepa price history",
       "price_per_2": 4.99,
       "yoy_pct": 17.1
+    },
+    {
+      "year": 2015,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1171,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 16.51,
+      "yoy_pct": -1.3
+    },
+    {
+      "year": 2015,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0679,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 33.95,
+      "yoy_pct": -22.8
+    },
+    {
+      "year": 2016,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.85,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 71.7,
+      "yoy_pct": -4.4
+    },
+    {
+      "year": 2016,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 6.1689,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 13.88,
+      "yoy_pct": -22.7
+    },
+    {
+      "year": 2016,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1276,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 17.99,
+      "yoy_pct": 9.0
+    },
+    {
+      "year": 2016,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0787,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 39.35,
+      "yoy_pct": 15.9
+    },
+    {
+      "year": 2017,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 29.975,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 59.95,
+      "yoy_pct": -16.4
+    },
+    {
+      "year": 2017,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 6.1689,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 13.88,
+      "yoy_pct": 0.0
     },
     {
       "year": 2017,
@@ -1059,12 +1000,92 @@
       "note": "2016 has no Keepa price history \u2014 flat vs. 2015"
     },
     {
+      "year": 2017,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.6571,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 11.6,
+      "note": "Verbatim CD-RW 700MB 12X Rewritable Discs, 10 Pack Slim Cases"
+    },
+    {
+      "year": 2017,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1276,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 17.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2017,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0602,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 30.1,
+      "yoy_pct": -23.5
+    },
+    {
+      "year": 2018,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 17.0
+    },
+    {
+      "year": 2018,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 7.5022,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 16.88,
+      "yoy_pct": 21.6
+    },
+    {
       "year": 2018,
       "media": "C-60 Cassette (Qty 2)",
       "cost_per_gb": 14176.14,
       "source": "Amazon via Keepa price history",
       "price_per_2": 4.99,
       "yoy_pct": 0.0
+    },
+    {
+      "year": 2018,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.57,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 10.99,
+      "yoy_pct": -5.3
+    },
+    {
+      "year": 2018,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1534,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 21.63,
+      "yoy_pct": 20.2
+    },
+    {
+      "year": 2018,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0594,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 29.7,
+      "yoy_pct": -1.3
+    },
+    {
+      "year": 2019,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 24.2,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 48.4,
+      "yoy_pct": -31.0
+    },
+    {
+      "year": 2019,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 6.6444,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 14.95,
+      "yoy_pct": -11.4
     },
     {
       "year": 2019,
@@ -1075,6 +1096,54 @@
       "yoy_pct": 0.0
     },
     {
+      "year": 2019,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.3371,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 9.36,
+      "yoy_pct": -14.8
+    },
+    {
+      "year": 2019,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1418,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 19.99,
+      "yoy_pct": -7.6
+    },
+    {
+      "year": 2019,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.054,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 26.99,
+      "yoy_pct": -9.1
+    },
+    {
+      "year": 2020,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "note": "New-old-stock 1GB Jaz cartridges still sold new on Amazon, long after Jaz drives themselves were discontinued in the early 2000s"
+    },
+    {
+      "year": 2020,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 44.9
+    },
+    {
+      "year": 2020,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 7.5022,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 16.88,
+      "yoy_pct": 12.9
+    },
+    {
       "year": 2020,
       "media": "C-60 Cassette (Qty 2)",
       "cost_per_gb": 14176.14,
@@ -1083,11 +1152,107 @@
       "yoy_pct": 0.0
     },
     {
+      "year": 2020,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.6857,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 11.8,
+      "yoy_pct": 26.1
+    },
+    {
+      "year": 2020,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.143,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 20.17,
+      "yoy_pct": 0.9
+    },
+    {
+      "year": 2020,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0556,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 27.79,
+      "yoy_pct": 3.0
+    },
+    {
+      "year": 2021,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2021,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2021,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 8.7778,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 19.75,
+      "yoy_pct": 17.0
+    },
+    {
       "year": 2021,
       "media": "C-60 Cassette (Qty 2)",
       "cost_per_gb": 14176.14,
       "source": "Amazon via Keepa price history",
       "price_per_2": 4.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2021,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.6857,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 11.8,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2021,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1739,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 24.52,
+      "yoy_pct": 21.6
+    },
+    {
+      "year": 2021,
+      "media": "Verbatim BD-R DL 50GB (10-pack)",
+      "cost_per_gb": 0.0743,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 37.15,
+      "yoy_pct": 33.7
+    },
+    {
+      "year": 2022,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2022,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2022,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 8.7778,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 19.75,
       "yoy_pct": 0.0
     },
     {
@@ -1100,181 +1265,12 @@
       "note": "Price held flat at $4.99 from 2015-2022 (8 years, 2016 unrecorded)"
     },
     {
-      "year": 2023,
-      "media": "C-60 Cassette (Qty 2)",
-      "cost_per_gb": 20142.05,
-      "source": "Amazon via Keepa price history",
-      "price_per_2": 7.09,
-      "yoy_pct": 42.1,
-      "note": "Breaks the 2015-2022 flat streak"
-    },
-    {
-      "year": 2024,
-      "media": "C-60 Cassette (Qty 2)",
-      "cost_per_gb": 25198.86,
-      "source": "Amazon via Keepa price history",
-      "price_per_2": 8.87,
-      "yoy_pct": 25.1
-    },
-    {
-      "year": 2025,
-      "media": "C-60 Cassette (Qty 2)",
-      "cost_per_gb": 24119.32,
-      "source": "Amazon via Keepa price history",
-      "price_per_2": 8.49,
-      "yoy_pct": -4.3
-    },
-    {
-      "year": 2017,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.6571,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 11.6,
-      "note": "Verbatim CD-RW 700MB 12X Rewritable Discs, 10 Pack Slim Cases"
-    },
-    {
-      "year": 2018,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.57,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 10.99,
-      "yoy_pct": -5.3
-    },
-    {
-      "year": 2019,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.3371,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 9.36,
-      "yoy_pct": -14.8
-    },
-    {
-      "year": 2020,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.6857,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 11.8,
-      "yoy_pct": 26.1
-    },
-    {
-      "year": 2021,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.6857,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 11.8,
-      "yoy_pct": 0.0
-    },
-    {
       "year": 2022,
       "media": "Verbatim CD-RW 700MB (10-pack)",
       "cost_per_gb": 1.6857,
       "source": "Amazon via Keepa price history",
       "price_per_10": 11.8,
       "yoy_pct": 0.0
-    },
-    {
-      "year": 2023,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.9414,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 13.59,
-      "yoy_pct": 15.2
-    },
-    {
-      "year": 2024,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.7471,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 12.23,
-      "yoy_pct": -10.0
-    },
-    {
-      "year": 2025,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.8571,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 13.0,
-      "yoy_pct": 6.3
-    },
-    {
-      "year": 2026,
-      "media": "Verbatim CD-RW 700MB (10-pack)",
-      "cost_per_gb": 1.8557,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 12.99,
-      "yoy_pct": -0.1
-    },
-    {
-      "year": 2013,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.163,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 22.98,
-      "note": "Verbatim DVD+RW 4.7GB 4X Rewritable Discs, 30 Pack Spindle"
-    },
-    {
-      "year": 2014,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1186,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 16.72,
-      "yoy_pct": -27.2
-    },
-    {
-      "year": 2015,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1171,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 16.51,
-      "yoy_pct": -1.3
-    },
-    {
-      "year": 2016,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1276,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 17.99,
-      "yoy_pct": 9.0
-    },
-    {
-      "year": 2017,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1276,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 17.99,
-      "yoy_pct": 0.0
-    },
-    {
-      "year": 2018,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1534,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 21.63,
-      "yoy_pct": 20.2
-    },
-    {
-      "year": 2019,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1418,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 19.99,
-      "yoy_pct": -7.6
-    },
-    {
-      "year": 2020,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.143,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 20.17,
-      "yoy_pct": 0.9
-    },
-    {
-      "year": 2021,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1739,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 24.52,
-      "yoy_pct": 21.6
     },
     {
       "year": 2022,
@@ -1283,126 +1279,6 @@
       "source": "Amazon via Keepa price history",
       "price_per_30": 23.25,
       "yoy_pct": -5.2
-    },
-    {
-      "year": 2023,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1566,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 22.08,
-      "yoy_pct": -5.0
-    },
-    {
-      "year": 2024,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1464,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 20.64,
-      "yoy_pct": -6.5
-    },
-    {
-      "year": 2025,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1381,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 19.47,
-      "yoy_pct": -5.7
-    },
-    {
-      "year": 2026,
-      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
-      "cost_per_gb": 0.1651,
-      "source": "Amazon via Keepa price history",
-      "price_per_30": 23.28,
-      "yoy_pct": 19.6
-    },
-    {
-      "year": 2011,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.166,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 82.99,
-      "note": "Verbatim BD-R DL Blank Blu-ray Discs, 50GB 8X Double Layer, 10 Pack"
-    },
-    {
-      "year": 2012,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.1599,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 79.95,
-      "yoy_pct": -3.7
-    },
-    {
-      "year": 2013,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.1519,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 75.95,
-      "yoy_pct": -5.0
-    },
-    {
-      "year": 2014,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0879,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 43.95,
-      "yoy_pct": -42.1
-    },
-    {
-      "year": 2015,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0679,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 33.95,
-      "yoy_pct": -22.8
-    },
-    {
-      "year": 2016,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0787,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 39.35,
-      "yoy_pct": 15.9
-    },
-    {
-      "year": 2017,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0602,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 30.1,
-      "yoy_pct": -23.5
-    },
-    {
-      "year": 2018,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0594,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 29.7,
-      "yoy_pct": -1.3
-    },
-    {
-      "year": 2019,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.054,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 26.99,
-      "yoy_pct": -9.1
-    },
-    {
-      "year": 2020,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0556,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 27.79,
-      "yoy_pct": 3.0
-    },
-    {
-      "year": 2021,
-      "media": "Verbatim BD-R DL 50GB (10-pack)",
-      "cost_per_gb": 0.0743,
-      "source": "Amazon via Keepa price history",
-      "price_per_10": 37.15,
-      "yoy_pct": 33.7
     },
     {
       "year": 2022,
@@ -1414,11 +1290,108 @@
     },
     {
       "year": 2023,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 16.8844,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 37.99,
+      "yoy_pct": 92.4
+    },
+    {
+      "year": 2023,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 20142.05,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 7.09,
+      "yoy_pct": 42.1,
+      "note": "Breaks the 2015-2022 flat streak"
+    },
+    {
+      "year": 2023,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.9414,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 13.59,
+      "yoy_pct": 15.2
+    },
+    {
+      "year": 2023,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1566,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 22.08,
+      "yoy_pct": -5.0
+    },
+    {
+      "year": 2023,
       "media": "Verbatim BD-R DL 50GB (10-pack)",
       "cost_per_gb": 0.0674,
       "source": "Amazon via Keepa price history",
       "price_per_10": 33.68,
       "yoy_pct": -6.2
+    },
+    {
+      "year": 2024,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 22.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 22.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3289,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 29.99,
+      "yoy_pct": -21.1
+    },
+    {
+      "year": 2024,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 25198.86,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 8.87,
+      "yoy_pct": 25.1
+    },
+    {
+      "year": 2024,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.7471,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 12.23,
+      "yoy_pct": -10.0
+    },
+    {
+      "year": 2024,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1464,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 20.64,
+      "yoy_pct": -6.5
     },
     {
       "year": 2024,
@@ -1430,11 +1403,100 @@
     },
     {
       "year": 2025,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 23.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 23.99,
+      "yoy_pct": 4.3
+    },
+    {
+      "year": 2025,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 35.065,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 70.13,
+      "yoy_pct": 0.0,
+      "note": "2025 has no Keepa price history \u2014 flat vs. 2024"
+    },
+    {
+      "year": 2025,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3289,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 29.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2025,
+      "media": "C-60 Cassette (Qty 2)",
+      "cost_per_gb": 24119.32,
+      "source": "Amazon via Keepa price history",
+      "price_per_2": 8.49,
+      "yoy_pct": -4.3
+    },
+    {
+      "year": 2025,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.8571,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 13.0,
+      "yoy_pct": 6.3
+    },
+    {
+      "year": 2025,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1381,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 19.47,
+      "yoy_pct": -5.7
+    },
+    {
+      "year": 2025,
       "media": "Verbatim BD-R DL 50GB (10-pack)",
       "cost_per_gb": 0.0733,
       "source": "Amazon via Keepa price history",
       "price_per_10": 36.65,
       "yoy_pct": 8.8
+    },
+    {
+      "year": 2026,
+      "media": "Iomega 1GB Jaz Cartridge (New, Amazon)",
+      "cost_per_gb": 24.99,
+      "source": "Amazon via Keepa price history",
+      "price_each": 24.99,
+      "yoy_pct": 4.2
+    },
+    {
+      "year": 2026,
+      "media": "Iomega 250MB Zip Disk (8-pack, New)",
+      "cost_per_gb": 42.305,
+      "source": "Amazon via Keepa price history",
+      "price_per_8": 84.61,
+      "yoy_pct": 20.6
+    },
+    {
+      "year": 2026,
+      "media": "Iomega 750MB Zip Disk (3-pack, New)",
+      "cost_per_gb": 13.3289,
+      "source": "Amazon via Keepa price history",
+      "price_per_3": 29.99,
+      "yoy_pct": 0.0
+    },
+    {
+      "year": 2026,
+      "media": "Verbatim CD-RW 700MB (10-pack)",
+      "cost_per_gb": 1.8557,
+      "source": "Amazon via Keepa price history",
+      "price_per_10": 12.99,
+      "yoy_pct": -0.1
+    },
+    {
+      "year": 2026,
+      "media": "Verbatim DVD+RW 4.7GB (30-pack)",
+      "cost_per_gb": 0.1651,
+      "source": "Amazon via Keepa price history",
+      "price_per_30": 23.28,
+      "yoy_pct": 19.6
     },
     {
       "year": 2026,
